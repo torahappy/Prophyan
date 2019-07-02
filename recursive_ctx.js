@@ -1,42 +1,63 @@
 "情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。情報を使う。それによって情報を得る。........"
 
+// Exposure to updateFuncs / getFieldValue
 let pushInfo;
 let getInfo;
+let getFieldSize;
 
 {
-    let field = []
+  let field = []
 
-    /**
-     * Push an information to the information field.
-     */
-    pushInfo = function (info) {
-      field.push(info)
-    }
+  /**
+   * Push an information to the information field.
+   */
+  pushInfo = function (info) {
+    field.push(info)
+  }
 
-    /**
-     * Get an information from the information field.
-     */
-    getInfo = function (i) {
-      return field[i]
-    }
+  /**
+   * Get an information from the information field.
+   */
+  getInfo = function (i) {
+    return field[i]
+  }
 
-    /**
-     * Get the length of the field for metadata purpose.
-     */
-    getFieldSize = function (i) {
-      return field.length
-    }
+  /**
+   * Get the length of the field.
+   */
+  getFieldSize = function (i) {
+    return field.length
+  }
 }
 
-let accessFieldValue;
+// Exposure to outer world
+let getFieldValue;
+let updateFuncs;
 
 {
-    let funcs = {
-      hello_world: () => (field.push("my first ctx")),
-      hello_world_2: (c) => {if (field[c] == "my first ctx") { return field.push("my second ctx") }}
-    }
+  let s = JSON.stringify()
+  let p = JSON.parse()
 
-    accessFieldValue = function (c) {
-      return field[c]
+  let tsuchiUtil = {
+    
+  }
+
+  updateFuncs = {
+    privilege: {
+      admin: () => {
+
+      }
+    },
+    tsuchi: {
+      get: () => {
+
+      }
     }
+  }
+
+  getFieldValue = function (c) {
+    return field[c]
+  }
 }
+
+export {getFieldValue, updateFuncs}
