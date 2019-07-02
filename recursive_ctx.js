@@ -35,22 +35,30 @@ let getFieldValue;
 let updateFuncs;
 
 {
-  let s = JSON.stringify()
-  let p = JSON.parse()
+  let push = (x) => {pushInfo(JSON.stringify(x)); return getFieldSize() - 1;}
+  let get = (x) => (JSON.parse(getInfo(x)))
 
-  let tsuchiUtil = {
-    
+  let privilegeUtil = {
+    createPrivilege: (rank) => {
+      return {type: "privilege", rank}
+    },
+    checkPrivilege: (ticket, action) => {
+      if (ticket.rank === "admin") {
+        return true;
+      }
+      return false;
+    }
   }
 
   updateFuncs = {
     privilege: {
       admin: () => {
-
+        return push(createPrivilege("admin"))
       }
     },
     tsuchi: {
       get: () => {
-
+        
       }
     }
   }
