@@ -23,3 +23,5 @@ info #203: {type: "メタデータ", info_table: {"山田": [...., 201], "田中
 info #204: {type: "物質干渉記録", player: "山田", change_type: "変位", change: [1, 0]}
 info #205: {type: "みかんデータベース閲覧記録", player: "田中", query: "SELECT commentary FROM mikan_umai WHERE id = 76", result: "ミカンうめーーー！"}
 info #206: {type: "メタデータ", info_table: {"山田": [...., 201, 204], "田中": [...., 202, 205]}, pubkey_table: {"山田": "0x....", "田中": "0x...."}
+
+仮にアカシックレコードが全て公開されていたとしても、201, 204を"使える"のは山田だけである。202, 205を"使える"のは田中だけである。
