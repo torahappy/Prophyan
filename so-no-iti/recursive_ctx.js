@@ -7,7 +7,22 @@ let getFieldValue;
 let updateFuncs;
 
 {
-  let push = (x) => {pushInfo(JSON.stringify(x)); return getFieldSize() - 1;}
+  let iden = (x) => (x)
+  let state = () => (JSON.parse(getInfo(getFieldSize() - 1)))
+  let push = (x, morph=iden) => {
+    let s = state();
+    pushInfo(JSON.stringify(x))
+    pushInfo(morph(s));
+    return getFieldSize() - 1;
+  }
+
+  let pushmany = (xs, morph=iden) => {
+    let s = state();
+    xs.map((x)=>(pushInfo(JSON.stringify(x))));
+    pushInfo(morph(s));
+    return getFieldSize() - 1;
+  }
+
   let get = (x) => (JSON.parse(getInfo(x)))
 
   let privilegeUtil = {
@@ -29,8 +44,12 @@ let updateFuncs;
       }
     },
     tsuchi: {
-      get: () => {
-        
+      get: (ticket_id, pos) => {
+        let s = state();
+        if (checkPrivilege(get(ticket_id), "tsuchi_get")) {
+            return push({type: "tsuchi_record", value: s.tsuchi[pos]})
+        }
+        return push({type: "error_privilege"})
       }
     }
   }
