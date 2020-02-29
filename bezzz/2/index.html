@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<title>Bezzz</title>
+<meta charset="utf-8"/>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: #140450;
+        color: white;
+    }
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+    }
+    canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: black;
+    }
+    #retry {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: black;
+        display: none;
+        font-size: 50px;
+        z-index: 100;
+        width: 500px;
+        height: 500px;
+        cursor: pointer;
+    }
+    #retry.activate {
+        display: block;
+    }
+    #score{
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+</head>
+<body>
+<h1>ベジェ曲線クソゲー</h1>
+<div id="score"></div>
+<div id="retry"><div>GAME OVER<br>RETRY</div></div>
+<script src="three.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
