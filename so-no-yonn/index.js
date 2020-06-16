@@ -48,8 +48,31 @@ function play(neiro, pitch, duration) {
     }
 }
 
+let musics = {
+    random_notes: function() {
+        setInterval(function () {
+            let tone = Math.random() * 12 - 6
+            play(neiros["t1"], tone, 100)
+        }, 200)
+    },
+    choice_notes: function(arr = [1, 3, 7, 8, 11, 13]) {
+        setInterval(function () {
+            let tone = choice(arr)
+            play(neiros["t1"], tone, 100)
+        }, 200)
+    }
+}
+
+function choice(x) {
+    return x[Math.floor(x.length * Math.random())]
+}
+
 function start() {
-    play(neiros["t1"], 0, 100)
+    setInterval(function () {
+        let arr = [1, 3, 7, 8, 11, 13]
+        let tone = choice(arr)
+        play(neiros["t1"], tone, 100)
+    }, 200)
 }
 
 let startRan = false;
