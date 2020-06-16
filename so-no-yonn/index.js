@@ -49,17 +49,37 @@ function play(neiro, pitch, duration) {
 }
 
 let musics = {
-    random_notes: function() {
+    random_notes: function(tempo = 200) {
         setInterval(function () {
             let tone = Math.random() * 12 - 6
             play(neiros["t1"], tone, 100)
-        }, 200)
+        }, tempo)
     },
-    choice_notes: function(arr = [1, 3, 7, 8, 11, 13]) {
+    choice_notes: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200) {
         setInterval(function () {
             let tone = choice(arr)
             play(neiros["t1"], tone, 100)
-        }, 200)
+        }, tempo)
+    },
+    random_walk_1: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
+        let current_pos = 0
+        setInterval(function () {
+            let move = choice(walks)
+            current_pos += move
+            let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/12)*12
+            console.log(tone)
+            play(neiros["t1"], tone, 100)
+        }, tempo)
+    },
+    random_walk_2: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
+        let current_pos = 0
+        setInterval(function () {
+            let move = choice(walks)
+            current_pos += move
+            let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/arr.length)*12
+            console.log(tone)
+            play(neiros["t1"], tone, 100)
+        }, tempo)
     }
 }
 
@@ -67,12 +87,12 @@ function choice(x) {
     return x[Math.floor(x.length * Math.random())]
 }
 
+function mod(n, m) {
+    return ((n % m) + m) % m
+}
+
 function start() {
-    setInterval(function () {
-        let arr = [1, 3, 7, 8, 11, 13]
-        let tone = choice(arr)
-        play(neiros["t1"], tone, 100)
-    }, 200)
+    musics.random_walk_2(undefined,undefined,[-2,-1,1,2])
 }
 
 let startRan = false;
