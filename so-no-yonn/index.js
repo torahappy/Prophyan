@@ -20,7 +20,7 @@ var neiros = {
     },
     "t1": {
         method: "tone",
-        src: ""
+        obj: new Tone.PolySynth(1, Tone.Synth).chain(new Tone.Tremolo().start(), Tone.Master)
     }
 }
 
@@ -40,11 +40,16 @@ function play(neiro, pitch, duration) {
             music.pause()
         }, duration)
     } else if (neiro.method === "tone") {
+        let num = [440 * Math.pow(2, pitch / 12)]
+        neiro.obj.triggerAttack(num)
+        setTimeout(function () {
+            neiro.obj.triggerRelease(num)
+        }, duration)
     }
 }
 
 function start() {
-    play(neiros["n2"], 0, 100)
+    play(neiros["t1"], 0, 100)
 }
 
 let startRan = false;
