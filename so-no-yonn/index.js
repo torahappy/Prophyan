@@ -7,6 +7,9 @@ filter.type = "lowshelf";
 filter.frequency.value = 1000;
 */
 
+/*
+    note that "native" presets only work on Firefox
+ */
 let neiros = {
     "n1": function () {
         return {
@@ -40,6 +43,8 @@ function play(neiro, pitch, duration) {
         audio.preload = "auto";
         audio.src = neiro.src;
         audio.load();
+        audio.preservespitch = false
+        audio.preservesPitch = false
         audio.mozPreservesPitch = false
         audio.webkitPreservesPitch = false
         audio.playbackRate = Math.pow(2, pitch / 12)
@@ -59,7 +64,7 @@ function play(neiro, pitch, duration) {
     }
 }
 
-let musics = {
+let tracks = {
     random_notes: function(neiro, tempo = 200) {
         setInterval(function () {
             let tone = Math.random() * 12 - 6
@@ -104,6 +109,13 @@ let musics = {
     }
 }
 
+let musics = {
+    "so-no-iti": function () {
+        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-2, -1, 0, 1, 2])
+        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-1, 0, 1])
+    }
+}
+
 function choice(x) {
     return x[Math.floor(x.length * Math.random())]
 }
@@ -113,7 +125,7 @@ function mod(n, m) {
 }
 
 function start() {
-    musics.random_walk_3(neiros["n1"](), chords["1"])
+    musics["so-no-iti"]()
 }
 
 let startRan = false;
