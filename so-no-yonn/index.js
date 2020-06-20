@@ -103,7 +103,9 @@ let tracks = {
             let move = choice(walks)
             current_pos += move
             let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/arr.length)*12
-            console.log(tone)
+            if (Math.random() < error_rate) {
+                tone += choice(errors)
+            }
             play(neiro, tone, 100)
         }, tempo)
     },
