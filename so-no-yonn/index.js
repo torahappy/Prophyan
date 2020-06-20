@@ -23,6 +23,9 @@ let neiros_native = {
     }
 }
 
+/*
+  Note that "tone" method requires a fresh Tone.js instance
+*/
 let neiros_tonejs = {
     "1": function () {
         return {
