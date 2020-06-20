@@ -97,7 +97,7 @@ let tracks = {
             play(neiro, tone, 100)
         }, tempo)
     },
-    random_walk_3: function(neiro, arr, tempo = 200, walks = [-1, 0, 1]) {
+    random_walk_3: function(neiro, arr, tempo = 200, errors = [-1, 1], error_rate = 0.1, walks = [-1, 0, 1]) {
         let current_pos = 0
         setInterval(function () {
             let move = choice(walks)
@@ -106,13 +106,33 @@ let tracks = {
             console.log(tone)
             play(neiro, tone, 100)
         }, tempo)
+    },
+    from_function: function (neiro, func, tempo = 200, offset = -5) {
+        let count_frame = 0
+        let count_func = 0
+        let length = 0
+        let args, tone
+        setInterval(function () {
+            if (count_frame === length) {
+                count_frame = 0
+                args = func(count_func) // args == [tone, length]
+                tone = args[0]
+                length = args[1]
+                play(neiro, tone, tempo*length + offset)
+                count_func++
+            }
+            count_frame++
+        }, tempo)
     }
 }
 
 let musics = {
-    "so-no-iti": function () {
-        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-2, -1, 0, 1, 2])
-        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-1, 0, 1])
+    "so-no-1": function () {
+        tracks.random_walk_2(neiros["t1"](), chords["1"], 200, [-2, -1, 0, 1, 2])
+        tracks.random_walk_2(neiros["t1"](), chords["1"], 200, [-1, 0, 1])
+    },
+    "so-no-2": function () {
+        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-1, 1], 0.1, [-1, 1])
     }
 }
 
@@ -125,13 +145,13 @@ function mod(n, m) {
 }
 
 function start() {
-    musics["so-no-iti"]()
+    musics["so-no-2"]()
 }
 
 let startRan = false;
 document.addEventListener("click", function () {
-    //if (!startRan) {
+    if (!startRan) {
         start()
         startRan = true
-    //}
+    }
 })
