@@ -1,5 +1,3 @@
-var music = new Audio();
-
 /*
 var context = new AudioContext()
 var audioSource = context.createMediaElementSource(music)
@@ -9,25 +7,22 @@ filter.type = "lowshelf";
 filter.frequency.value = 1000;
 */
 
-/*
-  Note that "native" method only works in Firefox
-*/
-let neiros_native = {
-    "1": {
-        method: "native",
-        src: "1.mp3"
+let neiros = {
+    "n1": function () {
+        return {
+            method: "native",
+            src: "1.mp3",
+            audio: new Audio()
+        }
     },
-    "2": {
-        method: "native",
-        src: "2.mp3"
-    }
-}
-
-/*
-  Note that "tone" method requires a fresh Tone.js instance
-*/
-let neiros_tonejs = {
-    "1": function () {
+    "n2": function () {
+        return {
+            method: "native",
+            src: "2.mp3",
+            audio: new Audio()
+        }
+    },
+    "t1": function () {
         return {
             method: "tone",
             obj: new Tone.PolySynth(1, Tone.Synth).chain(new Tone.Tremolo().start(), Tone.Master)
@@ -41,18 +36,19 @@ let chords = {
 
 function play(neiro, pitch, duration) {
     if (neiro.method === "native") {
-        music.preload = "auto";
-        music.src = neiro.src;
-        music.load();
-        music.mozPreservesPitch = false
-        music.webkitPreservesPitch = false
-        music.playbackRate = Math.pow(2, pitch / 12)
+        let audio = neiro.audio
+        audio.preload = "auto";
+        audio.src = neiro.src;
+        audio.load();
+        audio.mozPreservesPitch = false
+        audio.webkitPreservesPitch = false
+        audio.playbackRate = Math.pow(2, pitch / 12)
 
-        music.loop = true;
-        music.play();
+        audio.loop = true;
+        audio.play();
 
         setTimeout(function () {
-            music.pause()
+            audio.pause()
         }, duration)
     } else if (neiro.method === "tone") {
         let num = [440 * Math.pow(2, pitch / 12)]
@@ -117,7 +113,7 @@ function mod(n, m) {
 }
 
 function start() {
-    musics.random_walk_3(neiros_tonejs["1"](), chords["1"])
+    musics.random_walk_3(neiros["n1"](), chords["1"])
 }
 
 let startRan = false;
