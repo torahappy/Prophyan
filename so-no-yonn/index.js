@@ -108,7 +108,7 @@ function mod(n, m) {
 }
 
 function start() {
-    musics.random_walk_3(undefined,undefined,[-1,0,1])
+    musics.random_walk_3(undefined,undefined,undefined,[-1,0,1])
 }
 
 let startRan = false;
