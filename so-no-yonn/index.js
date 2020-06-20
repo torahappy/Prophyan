@@ -10,13 +10,17 @@ filter.frequency.value = 1000;
 */
 
 var neiros = {
-    "n1": {
-        method: "native",
-        src: "1.mp3"
+    "n1": function () {
+        return {
+            method: "native",
+            src: "1.mp3"
+        }
     },
-    "n2": {
-        method: "native",
-        src: "2.mp3"
+    "n2": function () {
+        return {
+            method: "native",
+            src: "2.mp3"
+        }
     },
     "t1": function () {
         return {
@@ -51,46 +55,46 @@ function play(neiro, pitch, duration) {
 }
 
 let musics = {
-    random_notes: function(tempo = 200) {
+    random_notes: function(neiro=neiros["t1"], tempo = 200) {
         setInterval(function () {
             let tone = Math.random() * 12 - 6
-            play(neiros["t1"](), tone, 100)
+            play(neiro(), tone, 100)
         }, tempo)
     },
-    choice_notes: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200) {
+    choice_notes: function(neiro=neiros["t1"], arr = [1, 3, 7, 8, 11, 13], tempo = 200) {
         setInterval(function () {
             let tone = choice(arr)
-            play(neiros["t1"](), tone, 100)
+            play(neiro(), tone, 100)
         }, tempo)
     },
-    random_walk_1: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
+    random_walk_1: function(neiro=neiros["t1"], arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
         let current_pos = 0
         setInterval(function () {
             let move = choice(walks)
             current_pos += move
             let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/12)*12
             console.log(tone)
-            play(neiros["t1"](), tone, 100)
+            play(neiro(), tone, 100)
         }, tempo)
     },
-    random_walk_2: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
+    random_walk_2: function(neiro=neiros["t1"], arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
         let current_pos = 0
         setInterval(function () {
             let move = choice(walks)
             current_pos += move
             let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/arr.length)*12
             console.log(tone)
-            play(neiros["t1"](), tone, 100)
+            play(neiro(), tone, 100)
         }, tempo)
     },
-    random_walk_3: function(arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
+    random_walk_3: function(neiro=neiros["t1"], arr = [1, 3, 7, 8, 11, 13], tempo = 200, walks = [-1, 0, 1]) {
         let current_pos = 0
         setInterval(function () {
             let move = choice(walks)
             current_pos += move
             let tone = arr[mod(current_pos, arr.length)] + Math.floor(current_pos/arr.length)*12
             console.log(tone)
-            play(neiros["t1"](), tone, 100)
+            play(neiro(), tone, 100)
         }, tempo)
     }
 }
@@ -104,7 +108,7 @@ function mod(n, m) {
 }
 
 function start() {
-    musics.random_walk_2(undefined,undefined,[-1,0,1])
+    musics.random_walk_3(undefined,undefined,[-1,0,1])
 }
 
 let startRan = false;
