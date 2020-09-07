@@ -97,7 +97,7 @@ let tracks = {
             play(neiro, tone, 100)
         }, tempo)
     },
-    random_walk_3: function(neiro, arr, tempo = 200, errors = [-1, 1], error_rate = 0.1, walks = [-1, 0, 1]) {
+    random_walk_3: function (neiro, arr, tempo = 200, errors = [-1, 1], error_rate = 0.1, walks = [-1, 0, 1]) {
         let current_pos = 0
         setInterval(function () {
             let move = choice(walks)
@@ -109,7 +109,7 @@ let tracks = {
             play(neiro, tone, 100)
         }, tempo)
     },
-    from_function: function (neiro, func, tempo = 200, offset = -5) {
+    from_tonelength_function: function (neiro, func, tempo = 200, offset = -5) {
         let count_frame = 0
         let count_func = 0
         let length = 0
@@ -134,7 +134,7 @@ let musics = {
         tracks.random_walk_2(neiros["t1"](), chords["1"], 200, [-1, 0, 1])
     },
     "so-no-2": function () {
-        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-1, 1], 0.1, [-1, 1])
+        tracks.random_walk_3(neiros["t1"](), chords["1"], 200, [-1, 1], 0.05, [-1, 1])
     }
 }
 
@@ -147,7 +147,7 @@ function mod(n, m) {
 }
 
 function start() {
-    musics["so-no-2"]()
+    musics["so-no-1"]()
 }
 
 let startRan = false;

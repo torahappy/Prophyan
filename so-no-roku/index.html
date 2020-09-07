@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body {
+background: #6E2101;
+}
+* {
+padding: 0;
+margin: 0;
+}
+@keyframes opaopa {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+canvas {
+  animation-name: opaopa;
+  animation-duration: 12s;
+}
+html, body{
+width: 100%;
+height: 100%;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+操作方法: クリック<br>
+How to play: just click the screen.
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js" integrity="sha512-kgjZw3xjgSUDy9lTU085y+UCVPz3lhxAtdOVkcO4O2dKl2VSBcNsQ9uMg/sXIM4SoOmCiYfyFO/n1/3GSXZtSg==" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+<script>
+const obj = tansaku()
+const elem = obj.renderer.domElement
+document.body.appendChild(elem)
+const update = function () {
+    elem.style.position = "absolute"
+    elem.style.top = (window.innerHeight / 2 - elem.height / 2) + "px"
+    elem.style.left = (window.innerWidth / 2 - elem.width / 2) + "px"
+}
+window.addEventListener("resize", update)
+update()
+activate_tansaku_gui(obj, window, 0, Math.floor(Math.random()*3))
+</script>
+</body>
+</html>
