@@ -40,7 +40,11 @@ const update = function () {
 }
 window.addEventListener("resize", update)
 update()
-activate_tansaku_gui(obj, window, 0, Math.floor(Math.random()*3))
+// {change: "single", randtype: "const"}
+// {change: "single", randtype: "notfair"}
+// {change: "single", randtype: "fair"}
+// {change: "all", randtype: "fair", randsize: 0.001}
+let obj2 = activate_tansaku_gui(obj, window, {input: "keyboard", change: "all", randtype: "fair", randsize: 0.001})
 </script>
 </body>
 </html>

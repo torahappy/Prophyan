@@ -38,6 +38,7 @@ function tansaku (default_params) {
         deno_2: { value : [3, 3] },
         deno_1: { value : [2, 2] },
         deno_0: { value : [1, 1] },
+        iter: { value : 50 },
     }
     data.uniforms = uniforms
 
@@ -71,6 +72,7 @@ uniform vec2 deno_2;
 uniform vec2 deno_1;
 uniform vec2 deno_0;
 uniform vec2 pos;
+uniform int iter;
 
 vec2 compmul(vec2 a, vec2 b) {
 	return vec2(a.x*b.x - a.y*b.y, a.x*b.y + a.y*b.x);
@@ -95,7 +97,7 @@ vec2 deno(vec2 a1) {
 void main() {
     float pi = 3.1415926535897932384626433832795;
     vec2 val = (vec2(vUv.x, vUv.y) - vec2(0.5, 0.5) + pos)*vec2(scale, scale);
-    for (int i = 0; i < 150; i++) {
+    for (int i = 0; i < iter; i++) {
         val = val - compmul(delta, compdiv(nume(val), deno(val)));
     }
     val = val * compscale;
@@ -119,6 +121,7 @@ void main() {
     data.parameters = parameters
     
     for (let i in uniforms) {
+        if (i == "iter") { continue; }
         let val = uniforms[i].value
         if (Array.isArray(val)) {
             for (let j = 0; j < val.length; j++) {
@@ -154,7 +157,13 @@ function set_param(obj, param_id, value) {
     }
 }
 
-function activate_tansaku_gui (obj, element, num, num2) {
+function activate_tansaku_gui (obj, element, options, num2) {
+    if (options.input === undefined) {
+        options.input = "mouse"
+    }
+    if (options.stop === undefined) {
+        options.stop = true
+    }
     let data = {}
     data.tansaku_obj = obj
     data.N = obj.parameters.length;
@@ -179,27 +188,74 @@ function activate_tansaku_gui (obj, element, num, num2) {
         data.velocity[i] = 0
     }
     
-    if (num == 0) {
-        data.random_id = 0
+    function rand() {
+        if (options.randtype == "const") {
+            return (options.randsize || 0.001)
+        }
+        if (options.randtype == "notfair") {
+           return (options.randsize || 0.01)*Math.random()
+        }
+        if (options.randtype == "fair") {
+           return (options.randsize || 0.01)*(Math.random() - 0.5)
+        }
     }
-    element.addEventListener("mousedown", function () {
-        if (num == 0) {
-            data.random_id = Math.floor(Math.random()*data.N)
-            if (num2 == 0) {
-                data.velocity[data.random_id] = 0.001
+    if (options.input == "keyboard") {
+        data.randoms = {}
+        data.valid_keys = "qwertyuiopasdfghjklzxcvbnm"
+        for (let c of data.valid_keys) {
+            if (options.change == "single") {
+                data.randoms[c] = [Math.floor(Math.random()*data.N), rand()]
             }
-            if (num2 == 1) {
-                data.velocity[data.random_id] = 0.01*(Math.random() - 0.5)
-            }
-            if (num2 == 2) {
-                data.velocity[data.random_id] = 0.01*(Math.random())
+            if (options.change == "all") {
+                data.randoms[c] = []
+                for (let id in data.velocity) {
+                    data.randoms[c][id] = rand()
+                }
             }
         }
-    })
-    element.addEventListener("mouseup", function () {
-        if (num == 0) {
-            data.velocity[data.random_id] = 0
-        }
-    })
+        element.addEventListener("keydown", function (ev) {
+            if (ev.key.length == 1 && data.valid_keys.includes(ev.key)) {
+                if (options.change == "single") {
+                    let random_id = data.randoms[ev.key][0]
+                    data.velocity[random_id] = data.randoms[ev.key][1]
+                }
+                if (options.change == "all") {
+                    for (let id in data.velocity) {
+                        data.velocity[id] = data.randoms[ev.key][id]
+                    }
+                }
+            }
+        })
+        element.addEventListener("keyup", function (ev) {
+            if (options.stop === true) {
+                if (options.change == "single" || options.change == "all") {
+                    for (let id in data.velocity) {
+                        data.velocity[id] = 0
+                    }
+                }
+            }
+        })
+    }
+    if (options.input == "mouse") {
+        element.addEventListener("mousedown", function () {
+            if (options.change == "single") {
+                data.velocity[Math.floor(Math.random()*data.N)] = rand()
+            }
+            if (options.change == "all") {
+                for (let id in data.velocity) {
+                    data.velocity[id] = rand()
+                }
+            }
+        })
+        element.addEventListener("mouseup", function () {
+            if (options.stop === true) {
+                if (options.change == "single" || options.change == "all") {
+                    for (let id in data.velocity) {
+                        data.velocity[id] = 0
+                    }
+                }
+            }
+        })
+    }
     return data
 }
