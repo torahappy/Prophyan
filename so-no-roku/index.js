@@ -38,7 +38,7 @@ function tansaku (default_params) {
         deno_2: { value : [3, 3] },
         deno_1: { value : [2, 2] },
         deno_0: { value : [1, 1] },
-        iter: { value : 50 },
+        iter: { value : 150 },
     }
     data.uniforms = uniforms
 
@@ -163,6 +163,9 @@ function activate_tansaku_gui (obj, element, options, num2) {
     }
     if (options.stop === undefined) {
         options.stop = true
+    }
+    if (options.randwalk === undefined) {
+        options.randwalk = true
     }
     let data = {}
     data.tansaku_obj = obj
