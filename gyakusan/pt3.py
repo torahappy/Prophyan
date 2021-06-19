@@ -22,7 +22,7 @@ with torch.cuda.device(0):
     rett = resnext50_32x4d(inpp)
     classes = rett.argmax(axis=1)
 
-    for i in range(1000):
+    for i in range(50000):
         loss = 0
         for k in range(classes.shape[0]):
             loss -= torch.softmax(rett[k], 0)[classes[k]]

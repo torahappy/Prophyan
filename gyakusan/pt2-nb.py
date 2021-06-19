@@ -21,33 +21,36 @@ with torch.cuda.device(0):
     w = 224
     mean = 0.4
     std = 0.2
-    batches = 32
-    inpp = (torch.randn(size=(batches, 3, w, w))*std + mean).cuda()
+    inpp = (torch.randn(size=(1, 3, w, w))*std + mean).cuda()
 
-    params = (torch.Tensor([0.1, 0.1, 10, 0.03, 0.02, 0.01]).repeat(batches,1)).cuda().requires_grad_()
+    points = 100
+
+    params = torch.stack([
+        torch.rand(points) - 0.5,
+        torch.rand(points) - 0.5,
+        90*torch.rand(points) + 10,
+        torch.rand(points)*0.4,
+        torch.rand(points)*0.4,
+        torch.rand(points)*0.4,
+    ]).T.cuda().requires_grad_()
+
+    print(params.shape)
 
     criterion = torch.nn.MSELoss(reduction='sum').cuda()
-    optimizer = torch.optim.Adam([params], lr=0.1)
+    optimizer = torch.optim.Adam([params], lr=0.01)
 
-    for i in range(100):
-        addd = torch.zeros(size=(batches, 3, w, w)).cuda()
-        for k in range(batches):
-            p = params[k]
+    for i in range(10000):
+        addd = torch.zeros((3, w, w)).cuda()
+        for p in params:
             addd += makecircle((w, w), p[0], p[1], p[2], p[3], p[4], p[5])
         rett = resnext50_32x4d(inpp + addd)
         if i == 0:
-            torchvision.utils.save_image(inpp + addd, "aaa2s.png")
-            classes = rett.argmax(axis=1)
-        loss = 0
-        for k in range(batches):
-            loss -= torch.softmax(rett[k], 0)[classes[k]]
+            torchvision.utils.save_image(inpp + addd, "aaanb2s.png")
+            classid = rett.argmax()
+        loss = -torch.softmax(rett, 1)[0, classid]
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
         print(loss)
-    
-    print(params)
-    
-    torchvision.utils.save_image(inpp + addd, "aaa2e.png")
 
-
+    torchvision.utils.save_image(inpp + addd, "aaanb2e.png")
