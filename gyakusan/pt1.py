@@ -23,6 +23,6 @@ with torch.cuda.device(0):
         inpp = x[0].cuda()
         rett = resnext50_32x4d(inpp)
         print(rett.argmax(axis=1))
-        torchvision.utils.save_image(x[0], "aaa.png")
+        torchvision.utils.save_image(x[0], __file__ + ".aaa.png")
     
 

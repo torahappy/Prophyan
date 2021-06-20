@@ -36,7 +36,7 @@ with torch.cuda.device(0):
             addd += makecircle((w, w), p[0], p[1], p[2], p[3], p[4], p[5])
         rett = resnext50_32x4d(inpp + addd)
         if i == 0:
-            torchvision.utils.save_image(inpp + addd, "aaa2s.png")
+            torchvision.utils.save_image(inpp + addd, __file__ + ".s.png")
             classes = rett.argmax(axis=1)
         loss = 0
         for k in range(batches):
@@ -48,6 +48,6 @@ with torch.cuda.device(0):
     
     print(params)
     
-    torchvision.utils.save_image(inpp + addd, "aaa2e.png")
+    torchvision.utils.save_image(inpp + addd, __file__ + ".e.png")
 
 

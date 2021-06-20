@@ -14,7 +14,7 @@ with torch.cuda.device(0):
     std = 0.2
     batches = 32
     inpp = (torch.randn(size=(batches, 3, w, w))*std + mean).cuda().requires_grad_()
-    torchvision.utils.save_image(inpp, "aaa3ls.png")
+    torchvision.utils.save_image(inpp, __file__ + ".s.png")
 
     criterion = torch.nn.MSELoss(reduction='sum').cuda()
     optimizer = torch.optim.Adam([inpp], lr=0.001)
@@ -41,5 +41,5 @@ with torch.cuda.device(0):
         rett = resnext50_32x4d(inpp)
         print(loss)
 
-    torchvision.utils.save_image(inpp, "aaa3le.png")
+    torchvision.utils.save_image(inpp, __file__ + ".e.png")
     

@@ -17,4 +17,4 @@ def makecircle(shape, x, y, s, r, g, b):
 
 with torch.cuda.device(0):
     x = makecircle((64, 64), 0.1, 0.1, 100, 0.7, 0.4, 0.2)
-    torchvision.utils.save_image(x, "aaa2.exp.png")
+    torchvision.utils.save_image(x, __file__ + ".png")

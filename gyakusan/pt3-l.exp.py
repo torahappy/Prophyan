@@ -20,6 +20,6 @@ with torch.cuda.device(0):
     img = list(dataloader)[0][0][0]
     w = 224
     out = F.conv2d(img.reshape(1, 3, w, w), torch.Tensor([[0,1,0],[1,-4,1],[0,1,0]]).repeat(3,1,1).reshape(3, 1, 3, 3), groups=3)
-    torchvision.utils.save_image(out, "aaa3lexp.png")
+    torchvision.utils.save_image(out, __file__ + ".png")
 
     

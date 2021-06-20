@@ -45,7 +45,7 @@ with torch.cuda.device(0):
             addd += makecircle((w, w), p[0], p[1], p[2], p[3], p[4], p[5])
         rett = resnext50_32x4d(inpp + addd)
         if i == 0:
-            torchvision.utils.save_image(inpp + addd, "aaanb2s.png")
+            torchvision.utils.save_image(inpp + addd, __file__ + ".s.png")
             classid = rett.argmax()
         loss = -torch.softmax(rett, 1)[0, classid]
         optimizer.zero_grad()
@@ -53,4 +53,4 @@ with torch.cuda.device(0):
         optimizer.step()
         print(loss)
 
-    torchvision.utils.save_image(inpp + addd, "aaanb2e.png")
+    torchvision.utils.save_image(inpp + addd, __file__ + ".e.png")
