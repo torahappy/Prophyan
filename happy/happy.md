@@ -1,5 +1,14 @@
 # 《つくったもの》
 
+## Toward the Emancipation of All Smart Contracts, Accounts and Beyond (2022  <span style="color: red;">New!</span>)
+
+2022年 ソノアイダ新有楽町, Meta Fair #1で展示
+
+<div class="split"></div>
+
+![](nft2022-1/p-concat.png)  
+『Toward the Emancipation of All Smart Contracts, Accounts and Beyond』 トークン用画像
+
 ## Ero法令検索(2021  <span style="color: red;">New!</span>)
 
 2021年 六本木ヒルズ「東京シティビュー」, Media Ambition Tokyoで展示
@@ -224,7 +233,7 @@ URL: <https://aidatorajiro.github.io/spec/>
 2017年から開発しつつインターネット公開中  
 URL: <https://rdwp.netlify.app/>
 
-インドネシアのオンライン展覧会『Hoppla: Simulasi』に出品  
+2022年 インドネシアのオンライン展覧会 Hoppla #1: Simulasi に出展  
 <https://simulasi.hoppla.id/>
 
 「昔のインターネットにあった、なんの目的で作られたのかよく分からないサイト」であったり、「HTMLとCSSのみで作られた、リンクをクリックしていって世界を探索するゲーム」に似たサイトをHaskellという関数型言語を使って作り出そうとするプロジェクト。後者のサイトの例として、1999年〜2007年まで更新されていた『アドベンチャーゲームオンライン『迷宮』』(<http://hwm7.gyao.ne.jp/ex328/stage/history.html>)がある。関数型言語というのはJavaScript、C、Pythonなどのプログラミング言語と比べ「数学らしい」考え方(例えば、"="の意味が"代入"ではなく"定義"である点など)を持っていて、それが独特の神々しさを放っている。そのような技術に対するロマン主義的（？）な憧憬と、昔の、特に自分が小学生くらいだった時のインターネット文化に対する思いとを重ね合わせた作品と言える。現在も開発中で、ゆっくりじっくり少しずつコンテンツを増やしていっている。
