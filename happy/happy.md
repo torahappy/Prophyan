@@ -301,7 +301,7 @@ URL: <https://torablog.netlify.app/>
 「Tora Blog」という個人的なブログ。書いている内容としては、哲学的な事柄に関する考察や、インターネットや社会の情勢について、自分の見た夢を記録する　夢日記　なるものにはまってゐる。Hugoという静的サイトを自動生成することのできるソフトウェアを使って開発し、静的サイトをホスティングできるNetlifyというサービスを使って公開した。
 
 ## Startbahn
-Startbahnという、ブロックチェーンによるアート作品の民主化や、作品のインターネットオークションなどを手がけるスタートアップ企業に2018年の2月から2019年の6月まで働いた。まずはブロックチェーンの一つであるEthereumの研究を行った。その後にWebアプリをEthereumやBitcoinと繋げて開発してみる勉強会+ハック大会のようなものをやった。その勉強会で色々なプロジェクトを開発した。
+Startbahnという、ブロックチェーンによるアート作品の民主化や、作品のインターネットオークションなどを手がけるスタートアップ企業に2018年の2月から2019年の6月まで働いた。まずはブロックチェーンの一つであるEthereumの研究を行った。その後にWebアプリをEthereumやBitcoinと繋げて開発してみる勉強会+ハック大会のようなものをやった。その勉強会で色々なプロジェクトを共同して開発した。
 
 ### Itoken market
 
@@ -327,9 +327,13 @@ URL: <https://github.com/aidatorajiro/ipynb-docs/blob/master/%E3%81%A4%E3%82%8B%
 
 ## Haskell製Bitcoinライブラリ
 
+<https://github.com/aidatorajiro/blockchain-haskell>
+
 Bitcoinのトランザクション構造を理解するために作成。
 
 ## Rubyのデータシリアライズ方式"Marshal"を解読するプログラム
+
+<https://github.com/aidatorajiro/marshal_saikou>
 
 Rustという今流行りの言語を使って作成。Rubyの内部の仕組みが良く勉強できた気がする。
 
