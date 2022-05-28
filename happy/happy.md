@@ -9,6 +9,8 @@
 ![](nft2022-1/p-concat.png)  
 『Toward the Emancipation of All Smart Contracts, Accounts and Beyond』 トークン用画像
 
+<div class="split"></div>
+
 ## Ero法令検索(2021  <span style="color: red;">New!</span>)
 
 2021年 六本木ヒルズ「東京シティビュー」, Media Ambition Tokyoで展示
