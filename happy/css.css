@@ -423,4 +423,8 @@ code {
         width: auto;
         height: 500px;
     }
+    .split {
+        break-after: page;
+        padding: 0px;
+    }
 }
