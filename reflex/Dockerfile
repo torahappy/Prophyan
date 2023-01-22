@@ -9,7 +9,7 @@ RUN addgroup nix sudo
 RUN mkdir -m 0755 /nix && chown nix:nix /nix
 RUN mkdir /etc/nix
 
-RUN echo "substituters = https://cache.nixos.org/ https://nixcache.reflex-frp.org\ntrusted-public-keys = ryantrinkle.com-1:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=\nhttp-connections = 40" | tee /etc/nix/nix.conf
+RUN echo "substituters = https://cache.nixos.org/ https://nixcache.reflex-frp.org\ntrusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= ryantrinkle.com-1:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=\nhttp-connections = 40" | tee /etc/nix/nix.conf
 
 USER nix
 
