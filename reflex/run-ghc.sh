@@ -1,1 +1,1 @@
-ssh -X nix@localhost bash -c "~/Prophyan/reflex/frontend/dist-newstyle/build/x86_64-linux/ghc-*/MyReflexProject-*/x/MyReflexProject-exe/build/MyReflexProject-exe/MyReflexProject-exe"
+ssh -X nix@localhost -p2525 bash -c "~/Prophyan/reflex/frontend/dist-newstyle/build/x86_64-linux/ghc-*/MyReflexProject-*/x/MyReflexProject-exe/build/MyReflexProject-exe/MyReflexProject-exe"
