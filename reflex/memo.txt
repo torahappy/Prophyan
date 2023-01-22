@@ -1,1 +1,17 @@
 なんかもどってきたよ
+
+[memo]
+
+[[basic prepare]]
+bashrc: .bashrc file for HLS
+build-image: build Dockerfile and docker container (with port forwarding 22 to 2525)
+
+[[GHCJS build]]
+build-src: (!!!GHCJS!!!) build source file 
+default.nix: (!!!GHCJS!!!) build file for GHCJS (forget about the ghc configuration)
+
+[[GHC build & HLS]]
+run-ghc.sh: (!!!GHC!!!) run the built application through X11 port forwarding
+shell.nix: (!!!GHC!!!) build file for GHC
+shell.sh: (!!!GHC!!!) prepare nix shell for GHC. To build, `cd frontend` inside the shell and run `cabal build` 
+ssh-and-env.sh: (!!!GHC!!!) install ssh, install id_ed25519.pub from host, enable foreign X11 fwd, and finally export the env of nix-shell to ~/envfile and load it to bashrc to enable HLS through vscode
