@@ -4,6 +4,10 @@
 
 2022年 ソノアイダ新有楽町, Meta Fair #1で展示
 
+意味を持ったランダム性
+
+死ぬことと生きること
+
 <div class="split"></div>
 
 ![](nft2022-1/p-concat.png)  
