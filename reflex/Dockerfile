@@ -18,4 +18,12 @@ WORKDIR /home/nix
 RUN curl -L https://nixos.org/nix/install | sh
 RUN echo 'USER=nix; . /home/nix/.nix-profile/etc/profile.d/nix.sh;' > ~/e.sh
 
-# RUN . ~/e.sh; nix-build -A ghcjs.MyReflexProject --show-trace
+COPY . /home/nix/MyReflexProject
+
+RUN sudo chown -R nix:nix MyReflexProject
+
+RUN sudo chmod -R 755 MyReflexProject
+
+RUN cd MyReflexProject; . ~/e.sh; nix-build -o ./build-ghcjs -A ghcjs.MyReflexProject --show-trace
+
+RUN cd MyReflexProject; . ~/e.sh; nix-shell --run "echo OK"

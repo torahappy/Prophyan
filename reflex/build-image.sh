@@ -1,6 +1,5 @@
 docker build . -t nix-reflex
 docker stop reflex
 docker rm reflex
-docker run --name reflex -it nix-reflex /bin/bash
+echo "echo OK" | docker run -p 2525:22 --name reflex -i nix-reflex /bin/bash
 docker start reflex
-sh build-src.sh
