@@ -1,0 +1,44 @@
+name:           MyReflexProject
+version:        0.1.0.0
+description:    My Reflex Game Project Hopefully
+homepage:       https://github.com/aidatorajiro/Prophyan#readme
+bug-reports:    https://github.com/aidatorajiro/Prophyan/issues
+author:         Torajiro Aida
+maintainer:     kawarusosu@zoho.com
+copyright:      2023 Torajiro Aida
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/aidatorajiro/Prophyan
+
+library
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , reflex
+    , reflex-dom
+  exposed-modules:
+      LibMain
+  other-modules:
+      Paths_MyReflexProject
+  default-language: Haskell2010
+
+executable MyReflexProject-exe
+  main-is: Main.hs
+  hs-source-dirs:
+      app
+  ghc-options:
+  build-depends:
+      MyReflexProject
+    , base >=4.7 && <5
+  other-modules:
+      Paths_MyReflexProject
+  default-language: Haskell2010

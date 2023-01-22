@@ -1,0 +1,21 @@
+FROM ubuntu:22.04
+
+RUN apt-get update
+RUN apt-get install -y curl xz-utils sudo git
+RUN adduser --disabled-password --gecos "" nix
+RUN echo "nix:nix" | chpasswd
+RUN echo "nix ALL=NOPASSWD: ALL" >> /etc/sudoers
+RUN addgroup nix sudo
+RUN mkdir -m 0755 /nix && chown nix:nix /nix
+RUN mkdir /etc/nix
+
+RUN echo "substituters = https://cache.nixos.org/ https://nixcache.reflex-frp.org\ntrusted-public-keys = ryantrinkle.com-1:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=\nhttp-connections = 40" | tee /etc/nix/nix.conf
+
+USER nix
+
+WORKDIR /home/nix
+
+RUN curl -L https://nixos.org/nix/install | sh
+RUN echo 'USER=nix; . /home/nix/.nix-profile/etc/profile.d/nix.sh;' > ~/e.sh
+
+# RUN . ~/e.sh; nix-build -A ghcjs.MyReflexProject --show-trace
