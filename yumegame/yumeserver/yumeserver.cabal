@@ -29,6 +29,7 @@ library
     , aeson-casing
   exposed-modules:
       LibMain
+      GameData
   other-modules:
       Paths_yumeserver
   default-language: Haskell2010
