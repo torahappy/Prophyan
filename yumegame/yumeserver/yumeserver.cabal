@@ -27,6 +27,10 @@ library
     , lens
     , aeson
     , aeson-casing
+    , warp
+    , wai
+    , http-types
+    , bytestring
   exposed-modules:
       LibMain
       GameData

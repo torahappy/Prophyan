@@ -1,6 +1,6 @@
 module Main where
 
-import LibMain ( yumeserver )
+import LibMain ( startApp )
 
 main :: IO ()
 main = startApp
