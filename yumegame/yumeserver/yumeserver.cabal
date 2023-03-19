@@ -30,6 +30,7 @@ library
     , websockets
     , bytestring
     , stm
+    , time
   exposed-modules:
       LibMain
       GameData

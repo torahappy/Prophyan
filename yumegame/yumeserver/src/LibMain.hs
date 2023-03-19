@@ -8,6 +8,8 @@ import FRP.Yampa ( integral, time, returnA, SF, reactimate )
 
 import Control.Lens ( makeLenses, (&), (.~), (?~) )
 
+import Data.Time.Clock
+
 import Data.Aeson.TH
     ( deriveJSON,
       defaultOptions,
@@ -25,9 +27,10 @@ import Data.Aeson (decode, encode)
 import qualified Data.ByteString.Builder as BB
 import Network.WebSockets (runServer, ServerApp, acceptRequest, receive, Message (ControlMessage, DataMessage), receiveDataMessage, sendTextData)
 import qualified Network.WebSockets as W
-import Control.Concurrent (forkIO, newEmptyMVar)
-import Control.Concurrent.STM (newTQueue, newTQueueIO, atomically, writeTQueue, readTQueue, flushTQueue, tryReadTQueue, newTVar, newTVarIO, writeTVar, readTVar)
+import Control.Concurrent (forkIO, newEmptyMVar, threadDelay)
+import Control.Concurrent.STM (newTQueue, newTQueueIO, atomically, writeTQueue, readTQueue, flushTQueue, tryReadTQueue, newTVar, newTVarIO, writeTVar, readTVar, readTVarIO)
 import Control.Monad
+import FRP.Yampa.Task (sleepT)
 
 yumeserver :: SF GameInput GameOutput
 yumeserver = proc x -> do
@@ -36,26 +39,21 @@ yumeserver = proc x -> do
 
 startApp :: IO ()
 startApp = do
-  cnt <- newTVarIO (0 :: Int)
+  timeRef <- newTVarIO =<< getCurrentTime
   input_queue <- newTQueueIO
   output_queue <- newTQueueIO
   forkIO $ reactimate (return newGameInput)
     (\b -> do
-      x <- atomically (tryReadTQueue input_queue)
-      case x of
-        Just _ -> return (0.1, x)
-        Nothing -> return (0.1, Nothing))
-    (\b o -> do
+      x <- atomically (readTQueue input_queue)
+      t1 <- getCurrentTime
+      t2 <- readTVarIO timeRef
+      atomically (writeTVar timeRef t2)
+      let dt = t2 `diffUTCTime` t1
+      return (realToFrac dt, Just x))
+    (\_ o -> do
       unless (isEmptyGameOutput o) $ atomically (writeTQueue output_queue o)
-
-      t <- atomically $ do
-        t <- readTVar cnt
-        writeTVar cnt (t + 1)
-        return t
-      print t
-
       return False) yumeserver
-  
+
   runServer "0.0.0.0" 9435 (\req -> do
       con <- acceptRequest req
       let procA = do
