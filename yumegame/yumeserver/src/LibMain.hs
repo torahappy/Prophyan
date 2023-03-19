@@ -26,10 +26,9 @@ import Network.Wai
 import Network.Wai.Handler.Warp ( run )
 import Network.HTTP.Types ( status200, status400 )
 import Data.Foldable (find)
-import Control.Monad
 import qualified Data.ByteString as B
 import Data.Aeson (decode, encode)
-import Data.ByteString.Builder (byteString)
+import qualified Data.ByteString.Builder as BB
 
 yumeserver :: SF GameInput GameOutput
 yumeserver = proc x -> do
@@ -51,7 +50,7 @@ webApp req respond = do
             body <- B.concat <$> getAllBody
             let parsed = decode (B.fromStrict body) :: Maybe GameInput
             case parsed of
-                Just x -> respond $ responseBuilder status200 baseHeader (byteString body)
+                Just x -> respond $ responseBuilder status200 baseHeader (BB.byteString body)
                 Nothing -> respond $ responseBuilder status400 baseHeader "{\"error\": \"ERROR! json parse failed\"}"
       Nothing -> respond $ responseBuilder status400 baseHeader "{\"error\": \"ERROR! please set Content-Type to application/json\"}"
 
