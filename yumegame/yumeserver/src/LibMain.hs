@@ -42,12 +42,15 @@ startApp = do
   timeRef <- newTVarIO =<< getCurrentTime
   input_queue <- newTQueueIO
   output_queue <- newTQueueIO
+  
   forkIO $ reactimate (return newGameInput)
     (\b -> do
       x <- atomically (readTQueue input_queue)
       t1 <- getCurrentTime
-      t2 <- readTVarIO timeRef
-      atomically (writeTVar timeRef t2)
+      t2 <- atomically $ do
+        t2 <- readTVar timeRef
+        writeTVar timeRef t2
+        return t2
       let dt = t2 `diffUTCTime` t1
       return (realToFrac dt, Just x))
     (\_ o -> do
