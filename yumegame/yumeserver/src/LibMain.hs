@@ -19,7 +19,7 @@ import Data.Char (toLower)
 
 import Data.Aeson.Casing ( snakeCase )
 
-import GameData ( GameInput, GameOutput, newGameOutput, newGameInput, isEmptyGameOutput )
+import GameData ( GameInput, GameOutput, newGameOutput, newGameInput )
 
 import Data.Foldable (find)
 import qualified Data.ByteString as B
@@ -34,7 +34,7 @@ import FRP.Yampa.Task (sleepT)
 
 yumeserver :: SF GameInput GameOutput
 yumeserver = proc x -> do
-  let def = newGameOutput
+  let def = newGameOutput []
   returnA -< def
 
 startApp :: IO ()
@@ -42,7 +42,7 @@ startApp = do
   timeRef <- newTVarIO =<< getCurrentTime
   input_queue <- newTQueueIO
   output_queue <- newTQueueIO
-  forkIO $ reactimate (return newGameInput)
+  forkIO $ reactimate (return $ newGameInput [])
     (\b -> do
       x <- atomically (readTQueue input_queue)
       t1 <- getCurrentTime
@@ -51,7 +51,7 @@ startApp = do
       let dt = t2 `diffUTCTime` t1
       return (realToFrac dt, Just x))
     (\_ o -> do
-      unless (isEmptyGameOutput o) $ atomically (writeTQueue output_queue o)
+      unless (o == newGameOutput []) $ atomically (writeTQueue output_queue o)
       return False) yumeserver
 
   runServer "0.0.0.0" 9435 (\req -> do
