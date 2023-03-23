@@ -67,7 +67,7 @@ startApp = do
             when (isJust x') (writeTVar input_arrived True)
             return (maybeToEvent x')
       -- -- --
-      threadDelay 100 -- 0.1 ms delay
+      threadDelay 1000 -- 1 ms delay
       t1 <- getCurrentTime
       t2 <- atomically $ do
         t2 <- readTVar timeRef
