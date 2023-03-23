@@ -1,6 +1,5 @@
 {-# LANGUAGE Arrows #-}
 {-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE BangPatterns #-}
 
 module LibMain ( startApp ) where
 
@@ -19,7 +18,7 @@ import Data.Char (toLower)
 
 import Data.Aeson.Casing ( snakeCase )
 
-import GameData ( GameInput, GameOutput, newGameOutput, newGameInput )
+import GameData ( GameInput (GameInput), GameOutput (GameOutput), GameEvent)
 
 import Data.Foldable (find)
 import qualified Data.ByteString as B
@@ -32,9 +31,16 @@ import Control.Concurrent.STM (newTQueue, newTQueueIO, atomically, writeTQueue, 
 import Control.Monad
 import FRP.Yampa.Task (sleepT)
 
+mapArrow :: SF x y -> SF [x] [y]
+mapArrow a = proc (x:xs) -> do
+  y <- a -< x
+  z <- mapArrow a -< xs
+  returnA -< y:z
+
 yumeserver :: SF GameInput GameOutput
-yumeserver = proc x -> do
-  let def = newGameOutput []
+yumeserver = proc (GameInput evs) -> do
+  let def = GameOutput []
+  
   returnA -< def
 
 startApp :: IO ()
@@ -42,7 +48,7 @@ startApp = do
   timeRef <- newTVarIO =<< getCurrentTime
   input_queue <- newTQueueIO
   output_queue <- newTQueueIO
-  forkIO $ reactimate (return $ newGameInput [])
+  forkIO $ reactimate (return $ GameInput [])
     (\b -> do
       x <- atomically (readTQueue input_queue)
       t1 <- getCurrentTime
@@ -51,7 +57,7 @@ startApp = do
       let dt = t2 `diffUTCTime` t1
       return (realToFrac dt, Just x))
     (\_ o -> do
-      unless (o == newGameOutput []) $ atomically (writeTQueue output_queue o)
+      unless (o == GameOutput []) $ atomically (writeTQueue output_queue o)
       return False) yumeserver
 
   runServer "0.0.0.0" 9435 (\req -> do

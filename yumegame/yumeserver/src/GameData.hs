@@ -1,7 +1,15 @@
 {-# LANGUAGE Arrows #-}
 {-# LANGUAGE TemplateHaskell #-}
 
-module GameData (Vec3, Object, GameInput, GameOutput, newGameOutput, newGameInput) where
+module GameData (
+    GameInput (..), 
+    GameOutput (..), 
+    GameEvent (..), 
+    RootState (..), 
+    UIConfig (..), 
+    UIElement (..), 
+    Object (..), 
+    Vec3(..)) where
 
 import FRP.Yampa ( integral, time, returnA, SF )
 
@@ -28,20 +36,26 @@ $(deriveJSON defaultOptions ''UIElement)
 newtype UIConfig = UIConfig [UIElement]   deriving( Eq )
 $(deriveJSON defaultOptions ''UIConfig)
 
-data GameEvent = KeyEvent Int |
-          UIClickEvent String |
-        NewObjectEvent Object |
-         SoundFeedEvent [Int] |
-     PlayerPositionEvent Vec3 |
-       UpdateUIEvent UIConfig
-       deriving( Eq )
+data RootState = RootState deriving Eq
+$(deriveJSON defaultOptions ''RootState)
 
+data GameEvent = 
+               StartGameEvent | -- i
+                 KeyEvent Int | -- i
+          UIClickEvent String | -- i
+        NewObjectEvent Object | -- o
+         SoundFeedEvent [Int] | -- o
+     PlayerPositionEvent Vec3 | -- i
+       UpdateUIEvent UIConfig | -- o
+                LoadGameEvent | -- i
+                SaveGameEvent | -- i
+  SaveGameFeedEvent RootState | -- o
+                 EndGameEvent   -- i
+       deriving ( Eq )
 $(deriveJSON defaultOptions ''GameEvent)
 
 newtype GameInput = GameInput [GameEvent] deriving( Eq )
 $(deriveJSON defaultOptions ''GameInput)
-newGameInput = GameInput
 
 newtype GameOutput = GameOutput [GameEvent] deriving( Eq )
 $(deriveJSON defaultOptions ''GameOutput)
-newGameOutput = GameOutput
