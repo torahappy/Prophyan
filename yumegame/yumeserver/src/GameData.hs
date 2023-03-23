@@ -2,8 +2,6 @@
 {-# LANGUAGE TemplateHaskell #-}
 
 module GameData (
-    GameInput (..), 
-    GameOutput (..), 
     GameEvent (..), 
     RootState (..), 
     UIConfig (..), 
@@ -53,9 +51,3 @@ data GameEvent =
                  EndGameEvent   -- i
        deriving ( Eq )
 $(deriveJSON defaultOptions ''GameEvent)
-
-newtype GameInput = GameInput [GameEvent] deriving( Eq )
-$(deriveJSON defaultOptions ''GameInput)
-
-newtype GameOutput = GameOutput [GameEvent] deriving( Eq )
-$(deriveJSON defaultOptions ''GameOutput)
