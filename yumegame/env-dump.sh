@@ -1,2 +1,3 @@
-nix-shell --run "env > ~/envfile"
+sh ./env-dump-local.sh
 cp ./bashrc ~/.bashrc
+cp ./envfile ~/envfile
