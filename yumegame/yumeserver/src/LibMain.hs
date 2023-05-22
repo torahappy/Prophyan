@@ -35,12 +35,6 @@ import FRP.Yampa.Task (sleepT)
 import Control.Lens.Internal.Getter (noEffect)
 import Data.Maybe (isJust)
 
-mapArrow :: SF x y -> SF [x] [y]
-mapArrow a = proc (x:xs) -> do
-  y <- a -< x
-  z <- mapArrow a -< xs
-  returnA -< y:z
-
 yumeserver :: SF (Event GameEvent) (Event GameEvent)
 yumeserver = proc evs -> do
   returnA -< noEvent
