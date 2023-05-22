@@ -23,25 +23,31 @@ import Control.Lens ( makeLenses )
 newtype Vec3 = Vec3 (Double, Double, Double)  deriving( Eq )
 $(deriveJSON defaultOptions ''Vec3)
 
+data Material = SimpleMaterial String | DynamicMaterial String [Double] deriving( Eq )
+$(deriveJSON defaultOptions ''Material)
+
 data Object =
-  Cube String Vec3 Vec3 Vec3 |
-  Sphere String Vec3 Vec3 Vec3  deriving( Eq )
+  Cube Material Vec3 Vec3 Vec3 |
+  Sphere Material Vec3 Vec3 Vec3  deriving( Eq )
 $(deriveJSON defaultOptions ''Object)
 
-data UIElement = Button String Vec3  deriving( Eq )
+data ObjectWithID = ObjectWithID String Object deriving ( Eq )
+$(deriveJSON defaultOptions ''ObjectWithID)
+
+data UIElement = Button String Vec3  deriving ( Eq )
 $(deriveJSON defaultOptions ''UIElement)
 
-newtype UIConfig = UIConfig [UIElement]   deriving( Eq )
+newtype UIConfig = UIConfig [UIElement]   deriving ( Eq )
 $(deriveJSON defaultOptions ''UIConfig)
 
-data RootState = RootState deriving Eq
+data RootState = RootState deriving ( Eq )
 $(deriveJSON defaultOptions ''RootState)
 
 data GameEvent = 
                StartGameEvent | -- i
                  KeyEvent Int | -- i
           UIClickEvent String | -- i
-        NewObjectEvent Object | -- o
+        NewObjectEvent ObjectWithID | -- o
          SoundFeedEvent [Int] | -- o
      PlayerPositionEvent Vec3 | -- i
        UpdateUIEvent UIConfig | -- o
