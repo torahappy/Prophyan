@@ -8,6 +8,8 @@
 
 死ぬことと生きること
 
+中で何かがおこっている、みたいな
+
 <div class="split"></div>
 
 ![](nft2022-1/p-concat.png)  
