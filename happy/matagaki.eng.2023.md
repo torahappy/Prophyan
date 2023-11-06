@@ -50,15 +50,13 @@ Also published on the Internet
 URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>  
 Walkthrough: <https://www.youtube.com/watch?v=yD6CshIZKic>
 
-It is a sequel to "I'm In The Computer Memory", or rather, a work that overlaps quite a bit in concept. This work was exhibited at the Media Ambition Tokyo exhibition in February-March 2020. First of all, let's read the caption that was used for the exhibition.
+It is a work that overlaps quite a bit in concept with "I'm In The Computer Memory". It was exhibited at the Media Ambition Tokyo exhibition in February-March 2020.
 
-```
-Type some text to the computer. Then press a button. Wow! Many words appears! Move the mouse quickly to choose a word. Selected words are combined and made into a sentence. The original text and the combined text have the same consonants. You can help your words to get their consonant-friends! There are many things in this world, and everything is connected to another thing somewhere. The relationships are hidden, however, we can reveal them. A world that you couldn’t see, but is actually exists. An another aspect of yourself. The world is not fixed. You can go to any worlds if you change the perspective. I want to feel like that. You can just enjoy what happened in your mind is changing. Of course, you can type some English text at first. Then the computer interprets the text as hiragana!
-```
+In a nutshell, it is a game where you can enjoy the way words are transformed depending on the connections of consonants. The system is inspired by Hebrew and Arabic language, in which words may be written only by consonants.
 
-Thus, in a nutshell, it is a game where you can "enjoy the way words are transformed in various ways by the connections of consonants. "I'm In The Computer Memory" was an exploration of what goes on behind the scenes of a computer processing data. How about this one? Words work as if to support the unchangeable reality and the feeling of "it wasn't supposed to be like this". However, I created this work to show that it is possible to reverse this effect and change the reality. If we can catch a glimpse of "the world that could have been", the sense of stagnation in our current reality may be eased a little.
+Words work as if to support the unchangeable reality. I created this work to show that it is possible to reverse this effect and change the reality through transforming words and realizing hidden networks behind them. If we can catch a glimpse of "the world (or words) that could have been", the sense of stagnation in our current reality may be eased a little.
 
-After the visitor types some text, the computer starts to select words with the same sequence of consonants. The visitor can interfere in the selection by moving the mouse. During the selection process, words are spoken by the computer (via auto-speech system of the OS). After sufficient words are selected to construct a new consonent-friend sentence, the whole passage is read again in two ways: in accordance with the original consonants (which is typed by the visitor) and re-interpretation by auto-speech AI. Because Japanese has many forms (Kanji, Hiragana, Katakana, Alphabet, etc.), a sentence can be read infinitely different ways. The auto-speech AI guesses the most probable way of reading, however it is probably different from original consonants. Therefore I make it to read in two ways.
+To be more specific, after the visitor types some text, the computer starts to select words with the same sequence of consonants. The visitor can interfere in the selection by moving the mouse. During the selection process, words are spoken by the computer (via auto-speech system of the OS). After sufficient words are selected to construct a new consonent-friend sentence, the whole passage is read again in two ways: in accordance with the original consonants (which is typed by the visitor) and re-interpretation of generated text by auto-speech AI. Because Japanese has many forms (Kanji, Hiragana, Katakana, Alphabet, etc.), a sentence can be read infinitely different ways. The auto-speech AI guesses the most probable way of reading (although sometimes they speak in "wrong way"), however it may not include original consonants. Therefore I make it to read in two ways.
 
 <div class="split"></div>
 
@@ -74,9 +72,11 @@ Presented at NASA Space Apps Challenge Hackathon (2020)
 Walkthrough: <https://youtu.be/x1tEht5C5ok>  
 URL: <https://aidatorajiro.github.io/spec/>
 
-After entering university, I was inspired by using Google Maps to find my way to school, and I thought it would be interesting to have a Google Map that imagined roads and buildings on the moon. I used AI to "forcibly" extract data such as road surfaces and buildings from photos of the moon. These kind of "forcibleness" may be one of the main themes in my work.
+Inspired from the experience of using Google Map to find my way to school shortly after entering the university, I made a Google Map-like website that imagines roads and buildings on the moon.
 
-I made it on NASA Space Apps Challenge Hackathon. Imaginary moon buildings and roads are shown in the app, by making an aerial photograph recognition AI to recognize the surface image of moon as the image of Earth city. The AI is programmed only to calculate which part of the image is "likely" to be building or roads, therefore even if you put the moon image on it, it will absolutely tell you its own opinion anyway. Using that data, I made an aerial map of moon like Google map. For buildings, autogenerated names based on coordinates are assigned.
+I used AI to "forcibly" extract data such as road surfaces and buildings from photos of the moon. Imaginary moon buildings and roads are shown in the app, by making an aerial photograph recognition AI to recognize the surface image of moon as the image of Earth city. The AI is programmed only to calculate which part of the image is "likely" to be building or roads, therefore even if you put the moon image on it, it will tell you its own opinion anyway. Using that data, I made a Google Map-like application in which you can find shortest path from one place to another. For buildings, autogenerated names based on coordinates are assigned.
+
+This work is made during NASA Space Apps Challenge Hackathon. 
 
 <div class="split"></div>
 
