@@ -16,21 +16,25 @@
 
 ## Toward the Emancipation of All Smart Contracts, Accounts and Beyond (2022)
 
+2022 - Exhibited at "Meta Fair #1", Yurakucho, Tokyo, Japan.
+
 
 
 ## Ero Law Search (2021)
 
 2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building
 
-*Ero Law Search* is an installation artwork that consists of a vertical display, a controller mat, and a computer. Some part of Japanese Law is shown on the display, overlapped by automatically generated drawings, which consist of colorful curving shapes and emojis with mathematical symbols. You can put your feet on the mat to control the computer and view another part of the law. The mat was put on the market roughly 20 years ago by a famous game company in Japan. The title is named after "E-gov Law Search", a Japanese governmental website that publishes all of the law, and Eros as the human desire towards goodness or beautifulness. 
+*Ero Law Search* is an installation artwork that consists of a vertical display, a controller mat, and a computer. On the display, Japanese Law is shown, decorated with automatically generated colorful combinations of drawings, curving shapes, emojis and mathematical symbols. You can put your feet on the mat to control the computer and view another part of the law. The mat is a consumer product that was sold 20 years ago by a game company in Japan. The title is named after "E-gov Law Search", a Japanese governmental website that publishes law, and Eros as the human desire towards goodness or beauty.
 
-The aim of this artwork is to ease the oppressiveness of the law, which is normally visible through black ink on white paper, like a white cube exhibition chamber. *Ero Law Search* introduces a new way to see the law, by drawing colorful shapes on it. Similarly, Emoji is itself and based on typography, which defines "the normal person" through "the normal language". The aim of *Ero Law Search* is to destroy norms by using these oppressive objects.
+The aim of this artwork is to ease the oppressiveness of the law, which is normally visible through black ink on white paper, akin to a "white cube" exhibition chamber. *Ero Law Search* introduces a new way to see the law, by drawing colorful shapes on it. The aim of *Ero Law Search* is to destroy norms by using these oppressive objects.
 
-The law is the dictionary of all social problems, as it is designed to solve or ease these problems. Through *Ero Law Search*, visitors can feel, think and imagine about these problems, like reading a dictionary randomly, without any purpose.
+The reason why I used emojis is that they have an interesting duality: although they are based on typography, which confines text expression to certain norms, they have the power to 
+
+The law is the dictionary of all social problems, as it is "designed" to "solve" these problems. Through *Ero Law Search*, visitors can feel, think and imagine about these problems, like reading a dictionary randomly, without any purpose. In fact, while playing the artwork, I was very surprised to see the most of the texts of law were still dreadfully patriarchal.
 
 As such, *Ero Law Search* is not something that impose the norm of the law. Rather, I want to emphasize the feeling of flying freely around the universe of colors, shapes, and texts, which is similar to the concept of 遊 of Daoism.
 
-Verse 73 of 道徳経 (an old scripture of Daoism) is shown on the display. The verse criticizes the law, as it is formed and controlled arbitrarily by humans. Rather than relative concepts such as the law, Daoists value 天 (Heaven) and 道 (Dao), which are absolute concepts that generate and coordinate everything in the universe. Even if people don't rely on the law, 天 and 道 coordinate everything towards good. On the contrary, as the law is arbitrary, it may harm good, like "if you're not a lumberjack but cut wood then you must injure yourself" (verse 72). I present Verse 73 because it moves me and want to share my emotion with visitors.
+Verse 73 of 道徳経 (an old scripture of Daoism) is shown on the display. The verse criticizes the law, as it is formed and controlled arbitrarily by humans. Rather than relative concepts such as the law, Daoists value 天 (Heaven) and 道 (Dao), which are absolute concepts that generate and coordinate everything in the universe. Even if people don't rely on the law, 天 and 道 coordinate everything towards good. On the contrary, as the law is arbitrary, it may harm good, like "if you're not a lumberjack but cut wood then you must injure yourself" (verse 72).
 
 <div class="split"></div>
 
@@ -50,9 +54,7 @@ Also published on the Internet
 URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>  
 Walkthrough: <https://www.youtube.com/watch?v=yD6CshIZKic>
 
-It is a work that overlaps quite a bit in concept with "I'm In The Computer Memory". It was exhibited at the Media Ambition Tokyo exhibition in February-March 2020.
-
-In a nutshell, it is a game where you can enjoy the way words are transformed depending on the connections of consonants. The system is inspired by Hebrew and Arabic language, in which words may be written only by consonants.
+It is a game where you can enjoy the way words are transformed depending on the connections of consonants. The system is inspired by Hebrew and Arabic language, in which words may be written only by consonants.
 
 Words work as if to support the unchangeable reality. I created this work to show that it is possible to reverse this effect and change the reality through transforming words and realizing hidden networks behind them. If we can catch a glimpse of "the world (or words) that could have been", the sense of stagnation in our current reality may be eased a little.
 
