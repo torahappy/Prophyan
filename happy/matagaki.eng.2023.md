@@ -1,16 +1,16 @@
-## Stew Unity (2023, group work)
+## Stew Unity (2023, group work with ...)
 
+2022 - Exhibited at "Future Ideations Camp Vol.2 | setup(): Making New Rules with Blockchains", CCBT, Tokyo, Japan.
 
+We designed a flexible and extensible smart contract program to create the NFT to scribbling against bills. Here, we divided the smart contract into multiple components to allow the use of various image data, NFT mechanisms, and SVG effect programs. We imagine that "blockchained scribbling tied to physical (or digital) bills" and "bill glitches" will be a tradition of blockchain culture in the future. By making bills astray and ownerless, we aim to free bills from the control of the state and furthermore breathes life into something, or anything, as mundane as a bill.
+
+Due to the technical limitations of full on-chain NFT, only low-resolution images can be uploaded to the network. On the other hand, SVG, which describes visual entity as a mathematical formula, allows for unlimited resolution. By combining "ultra-low-resolution images" and "SVG with infinite resolution," we are trying to deconstruct the situation surrounding computers and data, in which the superiority is determined by the computing power of hardware and the efficiency of algorithms, competition is accelerating, and resources are being wasted more and more. It can be said that we seek a different approach to blockchain technology, which tends to be criticized as a "waste of computing resources.
 
 ## Shodo-verse (2023)
 
 
 
-## 抵抗者マップ (2023, group work)
-
-
-
-## 嗜考食 (2023, group work)
+## 抵抗者マップ (2023, group work with ...)
 
 
 
@@ -20,21 +20,23 @@
 
 
 
+meaningful randomness / meaningless randomness?
+
+
+
 ## Ero Law Search (2021)
 
-2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building
+2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building, Tokyo, Japan
 
 *Ero Law Search* is an installation artwork that consists of a vertical display, a controller mat, and a computer. On the display, Japanese Law is shown, decorated with automatically generated colorful combinations of drawings, curving shapes, emojis and mathematical symbols. You can put your feet on the mat to control the computer and view another part of the law. The mat is a consumer product that was sold 20 years ago by a game company in Japan. The title is named after "E-gov Law Search", a Japanese governmental website that publishes law, and Eros as the human desire towards goodness or beauty.
 
 The aim of this artwork is to ease the oppressiveness of the law, which is normally visible through black ink on white paper, akin to a "white cube" exhibition chamber. *Ero Law Search* introduces a new way to see the law, by drawing colorful shapes on it. The aim of *Ero Law Search* is to destroy norms by using these oppressive objects.
 
-The reason why I used emojis is that they have an interesting duality: although they are based on typography, which confines text expression to certain norms, they have the power to 
+The reason why I used emojis is that they have an interesting duality. They are based on typography, which confines textual expression by certain norms, estranging complex emotions. However, they also have the power to blur and deconstruct meaning of words.
 
-The law is the dictionary of all social problems, as it is "designed" to "solve" these problems. Through *Ero Law Search*, visitors can feel, think and imagine about these problems, like reading a dictionary randomly, without any purpose. In fact, while playing the artwork, I was very surprised to see the most of the texts of law were still dreadfully patriarchal.
+The law is the dictionary of social problems, as it is "designed" to "address" these problems. Through *Ero Law Search*, visitors can feel, think and imagine about these problems, like reading a dictionary randomly, without any purpose. In fact, while playing the artwork, I was very surprised to see the most of the texts of law were still dreadfully patriarchal.
 
 As such, *Ero Law Search* is not something that impose the norm of the law. Rather, I want to emphasize the feeling of flying freely around the universe of colors, shapes, and texts, which is similar to the concept of 遊 of Daoism.
-
-Verse 73 of 道徳経 (an old scripture of Daoism) is shown on the display. The verse criticizes the law, as it is formed and controlled arbitrarily by humans. Rather than relative concepts such as the law, Daoists value 天 (Heaven) and 道 (Dao), which are absolute concepts that generate and coordinate everything in the universe. Even if people don't rely on the law, 天 and 道 coordinate everything towards good. On the contrary, as the law is arbitrary, it may harm good, like "if you're not a lumberjack but cut wood then you must injure yourself" (verse 72).
 
 <div class="split"></div>
 
@@ -58,7 +60,7 @@ It is a game where you can enjoy the way words are transformed depending on the 
 
 Words work as if to support the unchangeable reality. I created this work to show that it is possible to reverse this effect and change the reality through transforming words and realizing hidden networks behind them. If we can catch a glimpse of "the world (or words) that could have been", the sense of stagnation in our current reality may be eased a little.
 
-To be more specific, after the visitor types some text, the computer starts to select words with the same sequence of consonants. The visitor can interfere in the selection by moving the mouse. During the selection process, words are spoken by the computer (via auto-speech system of the OS). After sufficient words are selected to construct a new consonent-friend sentence, the whole passage is read again in two ways: in accordance with the original consonants (which is typed by the visitor) and re-interpretation of generated text by auto-speech AI. Because Japanese has many forms (Kanji, Hiragana, Katakana, Alphabet, etc.), a sentence can be read infinitely different ways. The auto-speech AI guesses the most probable way of reading (although sometimes they speak in "wrong way"), however it may not include original consonants. Therefore I make it to read in two ways.
+To be more specific, after the visitor types some text, the computer starts to select words with the same sequence of consonants. The visitor can interfere in the selection by moving the mouse. During the selection process, words are spoken by the computer (via auto-speech system of the OS). After sufficient words are selected to construct a new consonant-friend sentence, the whole passage is read again in two ways: in accordance with the original consonants (which is typed by the visitor) and re-interpretation of generated text by auto-speech AI. Because Japanese has many forms (Kanji, Hiragana, Katakana, Alphabet, etc.), a sentence can be read infinitely different ways. The auto-speech AI guesses the most probable way of reading (although sometimes they speak in "wrong way"), however it may not include original consonants. Therefore I make it to read in two ways.
 
 <div class="split"></div>
 
@@ -98,7 +100,7 @@ Walkthrough: <https://youtu.be/PB19q6_8lCE> <https://youtu.be/4vvN761sYp4>
 
 It is an application and installation work. In the exhibition space, there is a large screen and a touchscreen. Small grey squares are arranged on the screen. These squares represent the data stored in the computer, most of which is invisible when you normally use computers. A small white dot is placed at the center of the screen. This represents yourself, making you feel inside the small universe within a computer.
 
-Through exploring the inner space of a computer, you may link the grayscale pattern of data with your own life experience. Although the data behind the scene is not easy to "properly" understand unless you are an expert, with these data transformed into shapes and colors, it may become a shipyard, an abandoned factory, or a forest. We may obtain "other meanings", or "improper way of understanding". In this way, the division between machines and humans, between those who know machines and those who don't, may be eased. We may be able to perceive machines not just as mechanical calculators, but as beings with a very human warmth. That's what I was aiming for in this work. I made this work thinking that it was a game. This is because one of the purposes of this work is for me to enter the world of the computer and go on a "sightseeing" or "adventure". In a way, it's like envisioning another version of myself.
+Through exploring the inner space of a computer, you may link the gray-scale pattern of data with your own life experience. Although the data behind the scene is not easy to "properly" understand unless you are an expert, with these data transformed into shapes and colors, it may become a shipyard, an abandoned factory, or a forest. We may obtain "other meanings", or "improper way of understanding". In this way, the division between machines and humans, between those who know machines and those who don't, may be eased. We may be able to perceive machines not just as mechanical calculators, but as beings with a very human warmth. That's what I was aiming for in this work. I made this work thinking that it was a game. This is because one of the purposes of this work is for me to enter the world of the computer and go on a "sightseeing" or "adventure". In a way, it's like envisioning another version of myself.
 
 You may see this work looks very simple and minimalistic, but in reality I have tried and failed many times, and it is built on a lot of arbitrariness. For example, I designed a trail of footprints created by the player (white dot), so that the change in position and velocity would project the "atan" function, and then adjusted the parameters slightly to make it move in the most "comfortable" way.
 
