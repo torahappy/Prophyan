@@ -8,14 +8,28 @@ Due to the technical limitations of full on-chain NFT, only low-resolution image
 
 ## Shodo-verse (2023)
 
+2023 - Exhibited at "Hakkou Hajimarimashita (発酵、はじまりました)", Waseda University, Tokyo, Japan
 
+In collaboration with/using text generation AI, various social issues will be "compressed" into flow of kanjis, written in ink on hanshi (半紙) paper, and annotations will be added. The art of chain of impressions through kanji, is similar to that of rap. Is this the possibility of solidarity that transcends positions, or will it become a tool of Shinzo Abe or Fumio Kishida's deception for techno-feudalism? I would also like to explore ways to become a cyborg by recognizing the fundamental disconnection with machines, and delusions that are not captured in a larger story.
 
-## 抵抗者マップ (2023, group work with ...)
+![](shodo/1.webp)
+<div class="split"></div>
 
+![](shodo/2.webp)
+<div class="split"></div>
 
+![](shodo/3.webp)
+<div class="split"></div>
+
+![](shodo/4.webp)
+<div class="split"></div>
+
+![](shodo/5.webp)
+<div class="split"></div>
 
 ## Toward the Emancipation of All Smart Contracts, Accounts and Beyond (2022)
 
+2022 - Deployed at Polygon network  
 2022 - Exhibited physically at "Meta Fair #1", Yurakucho, Tokyo, Japan.
 
 *Toward the Emancipation of All Smart Contracts, Accounts and Beyond* is an artwork consists of a smart contract code on the Polygon blockchain network and a pdf document, disguised as a "whitepaper", a tradition in the blockchain and crypto community to present an idea and gather fund. The pdf document portrays the detail of the contract system and the aspirations toward the artificial deity which is prayed via blockchain, to emancipate us.
