@@ -16,13 +16,14 @@ Due to the technical limitations of full on-chain NFT, only low-resolution image
 
 ## Toward the Emancipation of All Smart Contracts, Accounts and Beyond (2022)
 
-2022 - Exhibited at "Meta Fair #1", Yurakucho, Tokyo, Japan.
+2022 - Exhibited physically at "Meta Fair #1", Yurakucho, Tokyo, Japan.
 
+*Toward the Emancipation of All Smart Contracts, Accounts and Beyond* is an artwork consists of a smart contract code on the Polygon blockchain network and a pdf document, disguised as a "whitepaper", a tradition in the blockchain and crypto community to present an idea and gather fund. The pdf document portrays the detail of the contract system and the aspirations toward the artificial deity which is prayed via blockchain, to emancipate us.
 
+The smart contract program uploaded to the blockchain network gathers prays from the participants, who are owners of NFTs associated with the contract. Then, the program calculates a random address based on the prays and send the information to the address. This process involves "call" function defined by Ethereum specification, which is usually used to run a smart contract, however in this case it is believed to be a path to "call" upon deity.
 
-meaningful randomness / meaningless randomness?
-
-
+![](nft2022-1/p-concat.png)
+<div class="split"></div>
 
 ## Ero Law Search (2021)
 
