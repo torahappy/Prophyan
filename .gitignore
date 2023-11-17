@@ -29,9 +29,5 @@ Temporary Items
 .apdisk
 
 happy-asset-raw
-
-happy/drawing/orig
-happy/ero/orig
-happy/iitcm/orig
-
 happy-misc
+happy/*/orig

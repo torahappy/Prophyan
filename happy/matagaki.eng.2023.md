@@ -1,10 +1,36 @@
-## Stew Unity (2023, group work with ...)
+## Stew Unity (2023, group work)
+
+Group work with [Ogi Kumiko](https://k-ogi1.wixsite.com/website), [sawako](https://troncolon.com/), [TAMAFREEDOM](https://twitter.com/TAMA_FREEDOM369), [teshnakamura](https://teshnakamura.com/)
 
 2022 - Exhibited at "Future Ideations Camp Vol.2 | setup(): Making New Rules with Blockchains", CCBT, Tokyo, Japan.
+
+Github repo: <https://github.com/aidatorajiro/rakugaki>  
+Testnet Opensea: <https://testnets.opensea.io/0xae97EDa493939137B20aD1E45Dd14cD82B2f3826>  
+NFT generation service: <https://rakugaki.aidatorajiro.dev/>
 
 We designed a flexible and extensible smart contract program to create the NFT to scribbling against bills. Here, we divided the smart contract into multiple components to allow the use of various image data, NFT mechanisms, and SVG effect programs. We imagine that "blockchained scribbling tied to physical (or digital) bills" and "bill glitches" will be a tradition of blockchain culture in the future. By making bills astray and ownerless, we aim to free bills from the control of the state and furthermore breathes life into something, or anything, as mundane as a bill.
 
 Due to the technical limitations of full on-chain NFT, only low-resolution images can be uploaded to the network. On the other hand, SVG, which describes visual entity as a mathematical formula, allows for unlimited resolution. By combining "ultra-low-resolution images" and "SVG with infinite resolution," we are trying to deconstruct the situation surrounding computers and data, in which the superiority is determined by the computing power of hardware and the efficiency of algorithms, competition is accelerating, and resources are being wasted more and more. It can be said that we seek a different approach to blockchain technology, which tends to be criticized as a "waste of computing resources.
+
+![](stew/1.webp)
+<div class="split"></div>
+
+![](stew/2.webp)
+<div class="split"></div>
+
+![](stew/3.webp)
+<div class="split"></div>
+
+![](stew/4.webp)
+<div class="split"></div>
+
+![](stew/5.webp)  
+Screenshot of generated NFTs  
+<div class="split"></div>
+
+![](stew/6.webp)
+Screenshot of NFT generation service Web app
+<div class="split"></div>
 
 ## Shodo-verse (2023)
 
