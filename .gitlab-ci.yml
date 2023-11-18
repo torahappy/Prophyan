@@ -9,12 +9,12 @@ pages:
   stage: deploy
   environment: production
   script:
-    - mkdir .happy
-    - cp -r ./happy/* .happy
-    - rm -rf happy
-    - mv .happy happy
+    - mkdir .public
+    - cp -r ./happy/* .public
+    - rm -rf public
+    - mv .public public
   artifacts:
     paths:
-      - happy
+      - public
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
