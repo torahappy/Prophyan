@@ -10,7 +10,7 @@ pages:
   environment: production
   script:
     - mkdir .public
-    - cp -r ./happy/* .public
+    - cp -r ./* .public
     - rm -rf public
     - mv .public public
   artifacts:
