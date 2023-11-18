@@ -4,343 +4,337 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>matagaki.eng</title>
+  <title>Works</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="css.css" />
+  <link rel="stylesheet" href="css.new.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
 <body>
-<h1 id="past-artworks">《Past Artworks》</h1>
-<h2 id="im-in-the-computer-memory">I’m In The Computer Memory</h2>
-<p>2018 国立新美術館, 第21回文化庁メディア芸術祭<br />
-2018 National Gallery of Indonesia, INSTRUMENTA 2018: SANDBOX<br />
-2018 大宜味村立旧塩屋小学校, メディア芸術祭やんばる展<br />
-2018 Source Code on Github</p>
-<h3 id="urls">URLs</h3>
-<p>Source Code URL: <a href="https://github.com/aidatorajiro/MemgameJS" class="uri">https://github.com/aidatorajiro/MemgameJS</a><br />
-Archive URL: <a href="http://archive.j-mediaarts.jp/festival/2018/art/works/21a_Im_In_The_Computer_Memory/" class="uri">http://archive.j-mediaarts.jp/festival/2018/art/works/21a_Im_In_The_Computer_Memory/</a><br />
-Movie URL: <a href="https://youtu.be/PB19q6_8lCE" class="uri">https://youtu.be/PB19q6_8lCE</a><br />
-Movie URL: <a href="https://youtu.be/4vvN761sYp4" class="uri">https://youtu.be/4vvN761sYp4</a></p>
-<h3 id="description">Description</h3>
-<p>I won the Newcomer’s Award at the 2018 Japan Media Arts Festival for his work “I’m In The Computer Memory”. In this installation work, visitors explore the white dot projected in the center of the screen as themselves in a black and white gradation projection of the computer memory space. The visitor gets a glimpse of a small universe within the computer that we use everyday. The data stored in a computer can only be understood when it is processed in various ways and appears on the screen (for example, a document), and the data behind it is not easy to understand unless you are an expert. However, if you make it into shapes and colors of black and white gradation, it becomes a shipyard. An abandoned factory. A forest. We get “other meanings”. In this way, the division between machines and humans, between those who know machines and those who don’t, may be eased. We may be able to perceive machines not just as mechanical calculators, but as beings with a very human warmth. That’s what I was aiming for in this work. I made this work thinking that it was a game. This is because one of the purposes of this work is for me to enter the world of the computer and go on a “sightseeing” or “adventure”. In a way, it’s like envisioning another version of myself.</p>
-<p>I have tried and failed many times. The design of a trail of footprints created by the player (white dot). I designed it so that the change in position and velocity would project the “atan” function, and then adjusted the parameters slightly to make it move in the most “comfortable” way. What I want to say is that this work looks very simple and minimalistic, but in fact it is built on a lot of arbitrariness.</p>
-<p>As for the technical aspects, it was developed using three.js, a JavaScript library that can draw WebGL, and Erectron, a software that can develop JavaScript desktop applications. In fact, this application was originally developed using Python, not JavaScript. I exhibited it as a “game” at a high school festival, but as I recall, it did not work well, so I re-created it.</p>
-<div class="split">
-
+<header id="title-block-header">
+<h1 class="title">Works</h1>
+</header>
+<section>
+<h2 id="stew-unity-2023-group-work">Stew Unity (2023, group work)</h2>
+<div class="caption">
+<p>Group work with <a href="https://k-ogi1.wixsite.com/website">Ogi
+Kumiko</a>, <a href="https://troncolon.com/">sawako</a>, <a
+href="https://twitter.com/TAMA_FREEDOM369">TAMAFREEDOM</a>, <a
+href="https://teshnakamura.com/">teshnakamura</a></p>
+<p>2022 - Exhibited at “Future Ideations Camp Vol.2 | setup(): Making
+New Rules with Blockchains”, CCBT, Tokyo, Japan.</p>
+<p>Github repo: <a href="https://github.com/aidatorajiro/rakugaki"
+class="uri">https://github.com/aidatorajiro/rakugaki</a><br />
+Testnet Opensea: <a
+href="https://testnets.opensea.io/0xae97EDa493939137B20aD1E45Dd14cD82B2f3826"
+class="uri">https://testnets.opensea.io/0xae97EDa493939137B20aD1E45Dd14cD82B2f3826</a><br />
+NFT generation service: <a href="https://rakugaki.aidatorajiro.dev/"
+class="uri">https://rakugaki.aidatorajiro.dev/</a></p>
+<p>We designed a flexible and extensible smart contract program to
+create the NFT to scribbling against bills. Here, we divided the smart
+contract into multiple components to allow the use of various image
+data, NFT mechanisms, and SVG effect programs. We imagine that
+“blockchained scribbling tied to physical (or digital) bills” and “bill
+glitches” will be a tradition of blockchain culture in the future. By
+making bills astray and ownerless, we aim to free bills from the control
+of the state and furthermore breathes life into something, or anything,
+as mundane as a bill.</p>
+<p>Due to the technical limitations of full on-chain NFT, only
+low-resolution images can be uploaded to the network. On the other hand,
+SVG, which describes visual entity as a mathematical formula, allows for
+unlimited resolution. By combining “ultra-low-resolution images” and
+“SVG with infinite resolution,” we are trying to deconstruct the
+situation surrounding computers and data, in which the superiority is
+determined by the computing power of hardware and the efficiency of
+algorithms, competition is accelerating, and resources are being wasted
+more and more. It can be said that we seek a different approach to
+blockchain technology, which tends to be criticized as a “waste of
+computing resources.</p>
 </div>
-<img src="iitcm/STA_0204.jpg" /><br />
-『I’m In The Computer Memory』文化庁メディア芸術祭<br />
-Credit: 文化庁メディア芸術祭<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="stew/1.webp" /></p>
+<p><img src="stew/2.webp" /></p>
+<p><img src="stew/3.webp" /></p>
+<p><img src="stew/4.webp" /></p>
+<p><img src="stew/5.webp" /><br />
+Screenshot of generated NFTs</p>
+<p><img src="stew/6.webp" /><br />
+Screenshot of NFT generation service Web app</p>
 </div>
-<img src="iitcm/STA_1633.jpg" /><br />
-『I’m In The Computer Memory』文化庁メディア芸術祭<br />
-Credit: 文化庁メディア芸術祭<br />
-
-<div class="split">
-
+</section>
+<section>
+<h2 id="shodo-verse-2023">Shodo-verse (2023)</h2>
+<div class="caption">
+<p>2023 - Exhibited at “Hakkou Hajimarimashita (発酵、はじまりました)”,
+Waseda University, Tokyo, Japan</p>
+<p>In collaboration with/using text generation AI, various social issues
+will be “compressed” into flow of kanjis, written in ink on hanshi
+(半紙) paper, and annotations will be added. The art of chain of
+impressions through kanji, is similar to that of rap. Is this the
+possibility of solidarity that transcends positions, or will it become a
+tool of Shinzo Abe or Fumio Kishida’s deception for techno-feudalism? I
+would also like to explore ways to become a cyborg by recognizing the
+fundamental disconnection with machines, and delusions that are not
+captured in a larger story.</p>
 </div>
-<img src="iitcm/2.jpg" /><br />
-やんばる展での展示風景<br />
-Credit: setten design<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="shodo/1.webp" /></p>
+<p><img src="shodo/2.webp" /></p>
+<p><img src="shodo/3.webp" /></p>
 </div>
-<img src="iitcm/Curatorialtour1.jpeg" /><br />
-『I’m In The Computer Memory』INSTRUMENTA<br />
-Credit: INSTRUMENTA 2018<br />
-
-<div class="split">
-
+</section>
+<section>
+<h2
+id="toward-the-emancipation-of-all-smart-contracts-accounts-and-beyond-2022">Toward
+the Emancipation of All Smart Contracts, Accounts and Beyond (2022)</h2>
+<div class="caption">
+<p>2022 - Deployed at Polygon network<br />
+2022 - Exhibited physically at “Meta Fair #1”, Yurakucho, Tokyo,
+Japan.</p>
+<p><em>Toward the Emancipation of All Smart Contracts, Accounts and
+Beyond</em> is an artwork consists of a smart contract code on the
+Polygon blockchain network and a pdf document, disguised as a
+“whitepaper”, a tradition in the blockchain and crypto community to
+present an idea and gather fund. The pdf document portrays the detail of
+the contract system and the aspirations toward the artificial deity
+which is prayed via blockchain, to emancipate us.</p>
+<p>The smart contract program uploaded to the blockchain network gathers
+prays from the participants, who are owners of NFTs associated with the
+contract. Then, the program calculates a random address based on the
+prays and send the information to the address. This process involves
+“call” function defined by Ethereum specification, which is usually used
+to run a smart contract, however in this case it is believed to be a
+path to “call” upon deity.</p>
 </div>
-<img src="iitcm/Curatorialtour2.jpeg" /><br />
-『I’m In The Computer Memory』INSTRUMENTA<br />
-Credit: INSTRUMENTA 2018<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="nft2022-1/p-concat.png" /></p>
 </div>
-<img src="iitcm/medigei_1.png" /><br />
-『I’m In The Computer Memory』CG<br />
-
-<div class="split">
-
+</section>
+<section>
+<h2 id="ero-law-search-2021">Ero Law Search (2021)</h2>
+<div class="caption">
+<p>2021 - Exhibited at “Media Ambition Tokyo” (group exhibition), Tokyo
+City View, Roppongi Hills Building, Tokyo, Japan</p>
+<p><em>Ero Law Search</em> is an installation artwork that consists of a
+vertical display, a controller mat, and a computer. On the display,
+Japanese Law is shown, decorated with automatically generated colorful
+combinations of drawings, curving shapes, emojis and mathematical
+symbols. You can put your feet on the mat to control the computer and
+view another part of the law. The mat is a consumer product that was
+sold 20 years ago by a game company in Japan. The title is named after
+“E-gov Law Search”, a Japanese governmental website that publishes law,
+and Eros as the human desire towards goodness or beauty.</p>
+<p>The aim of this artwork is to ease the oppressiveness of the law,
+which is normally visible through black ink on white paper, akin to a
+“white cube” exhibition chamber. <em>Ero Law Search</em> introduces a
+new way to see the law, by drawing colorful shapes on it. The aim of
+<em>Ero Law Search</em> is to destroy norms by using these oppressive
+objects.</p>
+<p>The reason why I used emojis is that they have an interesting
+duality. They are based on typography, which confines textual expression
+by certain norms, estranging complex emotions. However, they also have
+the power to blur and deconstruct meaning of words.</p>
+<p>The law is the dictionary of social problems, as it is “designed” to
+“address” these problems. Through <em>Ero Law Search</em>, visitors can
+feel, think and imagine about these problems, like reading a dictionary
+randomly, without any purpose. In fact, while playing the artwork, I was
+very surprised to see the most of the texts of law were still dreadfully
+patriarchal.</p>
+<p>As such, <em>Ero Law Search</em> is not something that impose the
+norm of the law. Rather, I want to emphasize the feeling of flying
+freely around the universe of colors, shapes, and texts, which is
+similar to the concept of 遊 of Daoism.</p>
 </div>
-<img src="iitcm/medigei_2.png" /><br />
-『I’m In The Computer Memory』CG<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="ero/scr1.png" /><br />
+Screen Capture</p>
+<p><img src="ero/IMG_1772.jpeg" /><br />
+Photo taken at Media Ambition Tokyo 2021</p>
 </div>
-<h2 id="子音ふれんず-en-consonant-friends">子音ふれんず (en: Consonant-friends)</h2>
-<p>2020 渋谷キューズ, Media Ambition Tokyo<br />
-2020 Source Code and Website on Github</p>
-<h3 id="urls-1">URLs</h3>
-<p>Application URL: <a href="https://aidatorajiro.github.io/sakusaku/sakusaku.html" class="uri">https://aidatorajiro.github.io/sakusaku/sakusaku.html</a><br />
-Movie URL: <a href="https://www.youtube.com/watch?v=yD6CshIZKic" class="uri">https://www.youtube.com/watch?v=yD6CshIZKic</a></p>
-<h3 id="description-1">Description</h3>
-<p>It is a sequel to “I’m In The Computer Memory”, or rather, a work that overlaps quite a bit in concept. This work was exhibited at the Media Ambition Tokyo exhibition in February-March 2020. First of all, let’s read the caption that was used for the exhibition.</p>
-<pre><code>Type some text to the computer. Then press a button. Wow! Many words appears! Move the mouse quickly to choose a word. Selected words are combined and made into a sentence. The original text and the combined text have the same consonants. You can help your words to get their consonant-friends! There are many things in this world, and everything is connected to another thing somewhere. The relationships are hidden, however, we can reveal them. A world that you couldn’t see, but is actually exists. An another aspect of yourself. The world is not fixed. You can go to any worlds if you change the perspective. I want to feel like that. You can just enjoy what happened in your mind is changing. Of course, you can type some English text at first. Then the computer interprets the text as hiragana!</code></pre>
-<p>Thus, in a nutshell, it is a game where you can “enjoy the way words are transformed in various ways by the connections of consonants.”I’m In The Computer Memory" was an exploration of what goes on behind the scenes of a computer processing data. How about this one? Words work as if to support the unchangeable reality and the feeling of “it wasn’t supposed to be like this”. However, I created this work to show that it is possible to reverse this effect and change the reality. If we can catch a glimpse of “the world that could have been”, the sense of stagnation in our current reality may be eased a little.</p>
-<div class="split">
-
+</section>
+<section>
+<h2 id="consonant-friends-2020">Consonant-friends (2020)</h2>
+<div class="caption">
+<p>Installation<br />
+Exhibited at Media Ambition Tokyo, Tokyo, 2020<br />
+Also published on the Internet<br />
+URL: <a href="https://aidatorajiro.github.io/sakusaku/sakusaku.html"
+class="uri">https://aidatorajiro.github.io/sakusaku/sakusaku.html</a><br />
+Walkthrough: <a href="https://www.youtube.com/watch?v=yD6CshIZKic"
+class="uri">https://www.youtube.com/watch?v=yD6CshIZKic</a></p>
+<p>It is a game where you can enjoy the way words are transformed
+depending on the connections of consonants. The system is inspired by
+Hebrew and Arabic language, in which words may be written only by
+consonants.</p>
+<p>Words work as if to support the unchangeable reality. I created this
+work to show that it is possible to reverse this effect and change the
+reality through transforming words and realizing hidden networks behind
+them. If we can catch a glimpse of “the world (or words) that could have
+been”, the sense of stagnation in our current reality may be eased a
+little.</p>
+<p>To be more specific, after the visitor types some text, the computer
+starts to select words with the same sequence of consonants. The visitor
+can interfere in the selection by moving the mouse. During the selection
+process, words are spoken by the computer (via auto-speech system of the
+OS). After sufficient words are selected to construct a new
+consonant-friend sentence, the whole passage is read again in two ways:
+in accordance with the original consonants (which is typed by the
+visitor) and re-interpretation of generated text by auto-speech AI.
+Because Japanese has many forms (Kanji, Hiragana, Katakana, Alphabet,
+etc.), a sentence can be read infinitely different ways. The auto-speech
+AI guesses the most probable way of reading (although sometimes they
+speak in “wrong way”), however it may not include original consonants.
+Therefore I make it to read in two ways.</p>
 </div>
-<img src="sin/IMG_8078.jpg" /><br />
-『子音ふれんず』<br />
-Credit: Hiroko OKADA<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="sin/IMG_8078.jpg" /><br />
+Photo taken at Media Ambition Tokyo 2020<br />
+Credit: Hiroko OKADA</p>
 </div>
-<img src="sin/IMG_8082.jpg" /><br />
-『子音ふれんず』<br />
-Credit: Hiroko OKADA<br />
-
-<div class="split">
-
+</section>
+<section>
+<h2 id="walking-on-the-moon-2020">Walking on the Moon (2020)</h2>
+<div class="caption">
+<p>Website<br />
+Presented at NASA Space Apps Challenge Hackathon (2020)<br />
+Walkthrough: <a href="https://youtu.be/x1tEht5C5ok"
+class="uri">https://youtu.be/x1tEht5C5ok</a><br />
+URL: <a href="https://aidatorajiro.github.io/spec/"
+class="uri">https://aidatorajiro.github.io/spec/</a></p>
+<p>Inspired from the experience of using Google Map to find my way to
+school shortly after entering the university, I made a Google Map-like
+website that imagines roads and buildings on the moon.</p>
+<p>I used AI to “forcibly” extract data such as road surfaces and
+buildings from photos of the moon. Imaginary moon buildings and roads
+are shown in the app, by making an aerial photograph recognition AI to
+recognize the surface image of moon as the image of Earth city. The AI
+is programmed only to calculate which part of the image is “likely” to
+be building or roads, therefore even if you put the moon image on it, it
+will tell you its own opinion anyway. Using that data, I made a Google
+Map-like application in which you can find shortest path from one place
+to another. For buildings, autogenerated names based on coordinates are
+assigned.</p>
+<p>This work is made during NASA Space Apps Challenge Hackathon.</p>
 </div>
-<h2 id="檄文tantatatandrawingssekai-no-kao">檄文、TANTATATAN、drawings、Sekai no Kao</h2>
-<p>2015年 東京都現代美術館,「おとなもこどもも考える ここはだれの場所?」</p>
-<p>In 2015, as a member of the family art unit “Aida Family”, I exhibited at the Museum of Contemporary Art Tokyo in the exhibition “An Art Exhibition for Children Whose place is this?”. The exhibition included “檄文” (created by the whole family), which raises the issue of the Japanese education system, many drawings that I made, “TANTATAN”, a video work that I directed when I was in elementary school, and “Sekai no Kao” (created with Mitsuho Yamamoto and Hideki Tanaka), an installation which introduces the faces and emotions of people around the world.</p>
-<div class="split">
-
+<div class="images">
+<p><img src="moon.png" /></p>
 </div>
-<img src="cocoa/7.jpg" /><br />
-東京都現代美術館<br />
-Credit: Courtesy of Mizuma Art Gallery<br />
-
-<div class="split">
-
+</section>
+<section>
+<h2 id="im-in-the-computer-memory-2018">I’m In The Computer Memory
+(2018)</h2>
+<div class="caption">
+<p>21st Japan Media Art Festival, Newbies Award, 2018<br />
+Exhibited at 21st Japan Media Art Festival, Japan, 2018<br />
+Exhibited at INSTRUMENTA 2018: SANDBOX, National Gallery of Indonesia,
+Indonesia, 2018<br />
+Exhibited at Media Art Festival Yambaru, Ogimi, Okinawa, 2018</p>
+<p>Source Code URL: <a href="https://github.com/aidatorajiro/MemgameJS"
+class="uri">https://github.com/aidatorajiro/MemgameJS</a><br />
+Media Art Festival Archive Website: <a
+href="http://archive.j-mediaarts.jp/festival/2018/art/works/21a_Im_In_The_Computer_Memory/"
+class="uri">http://archive.j-mediaarts.jp/festival/2018/art/works/21a_Im_In_The_Computer_Memory/</a><br />
+Walkthrough: <a href="https://youtu.be/PB19q6_8lCE"
+class="uri">https://youtu.be/PB19q6_8lCE</a> <a
+href="https://youtu.be/4vvN761sYp4"
+class="uri">https://youtu.be/4vvN761sYp4</a></p>
+<p>It is an application and installation work. In the exhibition space,
+there is a large screen and a touchscreen. Small grey squares are
+arranged on the screen. These squares represent the data stored in the
+computer, most of which is invisible when you normally use computers. A
+small white dot is placed at the center of the screen. This represents
+yourself, making you feel inside the small universe within a
+computer.</p>
+<p>Through exploring the inner space of a computer, you may link the
+gray-scale pattern of data with your own life experience. Although the
+data behind the scene is not easy to “properly” understand unless you
+are an expert, with these data transformed into shapes and colors, it
+may become a shipyard, an abandoned factory, or a forest. We may obtain
+“other meanings”, or “improper way of understanding”. In this way, the
+division between machines and humans, between those who know machines
+and those who don’t, may be eased. We may be able to perceive machines
+not just as mechanical calculators, but as beings with a very human
+warmth. That’s what I was aiming for in this work. I made this work
+thinking that it was a game. This is because one of the purposes of this
+work is for me to enter the world of the computer and go on a
+“sightseeing” or “adventure”. In a way, it’s like envisioning another
+version of myself.</p>
+<p>You may see this work looks very simple and minimalistic, but in
+reality I have tried and failed many times, and it is built on a lot of
+arbitrariness. For example, I designed a trail of footprints created by
+the player (white dot), so that the change in position and velocity
+would project the “atan” function, and then adjusted the parameters
+slightly to make it move in the most “comfortable” way.</p>
+<p>As for the technical aspects, it was developed using three.js, a
+JavaScript library that can draw WebGL, and Erectron, a software that
+can develop JavaScript desktop applications. In fact, this application
+was originally developed using Python, not JavaScript. I exhibited it as
+a “game” at an art festival during my high school days, but it did not
+work well, so I re-created it using JavaScript.</p>
 </div>
-<img src="cocoa/a.jpg" /><br />
-東京都現代美術館 drawings<br />
-Credit: Courtesy of Mizuma Art Gallery<br />
+<div class="images">
 
-<div class="split">
-
+<p><img src="iitcm/STA_0204.jpg" /><br />
+Photo taken at 21st Japan Media Art Festival<br />
+Credit: Japan Media Arts Festival</p>
+<p><img src="iitcm/STA_1633.jpg" /><br />
+Photo taken at 21st Japan Media Art Festival<br />
+Credit: Japan Media Arts Festival</p>
+<p><img src="iitcm/medigei_1.png" /><br />
+Computer graphics of the exhibition layout</p>
+<p><img src="iitcm/medigei_2.png" /><br />
+Computer graphics of the exhibition layout</p>
+</section>
+<section>
+<h2 id="rdwp-2017-present">RDWP (2017 – present)</h2>
+<div class="caption">
+<p>Website<br />
+URL: <a href="https://rdwp.netlify.app/"
+class="uri">https://rdwp.netlify.app/</a></p>
+<p>It is a project to create a website similar to “an old Internet
+website with no clear purpose” or “a game using only HTML and CSS, where
+you click on links to explore the world” using a functional language,
+Haskell. An example of such website is the “Adventure Game Online
+‘Labyrinth’” (<a href="http://hwm7.gyao.ne.jp/ex328/stage/history.html"
+class="uri">http://hwm7.gyao.ne.jp/ex328/stage/history.html</a>), which
+was updated from 1999 to 2007.</p>
+<p>Compared to programming languages such as JavaScript, C, Python,
+etc., functional languages have a “mathematical” way of thinking (e.g.,
+the meaning of “=” is not “assignment” but “definition”), which gives
+them a unique divinity. It is a work that combines my romantic yearning
+of Functional Programming technology and the Internet culture of the
+past, especially when I was 10 years old or so. It is still under
+development, and the contents are being added slowly and gradually.</p>
+<p>Visitors use keyboard and mouse to play it. Many algorithms, shapes,
+pictures that I found interesting are combined into one app. For
+example, it contains an algorithm that simulates waves based on physics
+knowledge, or a blurred picture of a 404 page I took from somewhere on
+the internet, and so on…</p>
 </div>
-<img src="cocoa/b.jpg" /><br />
-東京都現代美術館 drawings<br />
-Credit: Courtesy of Mizuma Art Gallery<br />
-
-<div class="split">
-
+<div class="images">
+<p><img src="rdwp/1.png" /></p>
+<p><img src="rdwp/2.png" /></p>
+<p><img src="rdwp/3.png" /></p>
+<p><img src="rdwp/4.png" /></p>
+<p><img src="rdwp/5.png" /></p>
 </div>
-<img src="cocoa/tantatatan16.jpg" /><br />
-東京都現代美術館 TANTATATAN<br />
-Credit: Courtesy of Mizuma Art Gallery<br />
-
-<div class="split">
-
-</div>
-<img src="cocoa/tantatatan19.jpg" /><br />
-東京都現代美術館 TANTATATAN<br />
-Credit: Courtesy of Mizuma Art Gallery<br />
-
-<div class="split">
-
-</div>
-<h2 id="mitou-asobi-project-achievement-report">MITOU ASOBI Project Achievement Report</h2>
-<p>2018</p>
-<p>I participated in a software engineer education project led by Japanese goverment, called MITOU. There I created a software relating to blockchain. The aim of the software is that you can experience the blockchain in your browser through sound and sight, and experience processing data as if you were a part of a blockchain program. By becoming a part of the programs that make up the blockchain, it become easier to understand its structure. However, I don’t really remember much about it because I wasn’t really comfortable with, how to say, the mood of a science research institute or the bureaucratic atmosphere. In particular, having to write a “daily report” every day was chipping away at my “productivity”, and it was like the problem with the Japanese education system that I had pointed out in my “檄文” earlier. In spite of all this, I succeeded in writing a 35-page long paper on the integration of art and software technology, along with my own drawings, for the final “Achievement Report” to be submitted. Here is a part of it.</p>
-<div class="split">
-
-</div>
-<img src="mt/0.png" /><br />
-MITOU ASOBI Project Slide<br />
-
-<div class="split">
-
-</div>
-<img src="mt/1.png" /><br />
-MITOU ASOBI Project Report<br />
-
-<div class="split">
-
-</div>
-<img src="mt/2.png" /><br />
-MITOU ASOBI Project Report<br />
-
-<div class="split">
-
-</div>
-<img src="mt/3.png" /><br />
-MITOU ASOBI Project Report<br />
-
-<div class="split">
-
-</div>
-<img src="mt/4.png" /><br />
-MITOU ASOBI Project Report<br />
-
-<div class="split">
-
-</div>
-<img src="mt/5.png" /><br />
-MITOU ASOBI Project Report<br />
-
-<div class="split">
-
-</div>
-<h2 id="drawings">drawings</h2>
-<img src="drawing/2.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/3.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/4.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/5.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/6.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/7.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/8.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/9.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<img src="drawing/10.jpeg" /><br />
-2020<br />
-
-<div class="split">
-
-</div>
-<h2 id="月面通学路-en-walking-on-the-moon">月面通学路 (en : Walking on the Moon)</h2>
-<p>2020</p>
-<h3 id="urls-2">URLs</h3>
-<p>Video: <a href="https://youtu.be/x1tEht5C5ok" class="uri">https://youtu.be/x1tEht5C5ok</a><br />
-Application URL: <a href="https://aidatorajiro.github.io/spec/" class="uri">https://aidatorajiro.github.io/spec/</a></p>
-<p>After entering university, I was inspired by using Google Maps to find my way to school, and I thought it would be interesting to have a Google Map that imagined roads and buildings on the moon. I used AI to “forcibly” extract data such as road surfaces and buildings from photos of the moon. These kind of “forcibleness” may be one of the main themes in my work.</p>
-<div class="split">
-
-</div>
-<img src="moon.png" /><br />
-『月面通学路』Website<br />
-
-<div class="split">
-
-</div>
-<h2 id="rdwp">RDWP</h2>
-<p>2017-present<br />
-URL: <a href="https://rdwp.netlify.app/" class="uri">https://rdwp.netlify.app/</a></p>
-<p>This is a project to create a site similar to “an old Internet site with no clear purpose” or “a game using only HTML and CSS, where you click on links to explore the world” using a functional language called Haskell. An example of the latter site is the “Adventure Game Online ‘Labyrinth’” (<a href="http://hwm7.gyao.ne.jp/ex328/stage/history.html" class="uri">http://hwm7.gyao.ne.jp/ex328/stage/history.html</a>), which was updated from 1999 to 2007. Compared to programming languages such as JavaScript, C, Python, etc., functional languages have a “mathematical” way of thinking (e.g., the meaning of “=” is not “assignment” but “definition”), which gives them a unique divinity. It is a work that combines my romantic (?) yearning for such technology with my feelings about the Internet culture of the past, especially when I was in elementary school. It is still under development, and the contents are being added slowly and gradually.</p>
-<div class="split">
-
-</div>
-<img src="rdwp/1.png" /><br />
-『RDWP』Website<br />
-
-<div class="split">
-
-</div>
-<img src="rdwp/2.png" /><br />
-『RDWP』Website<br />
-
-<div class="split">
-
-</div>
-<img src="rdwp/3.png" /><br />
-『RDWP』Website<br />
-
-<div class="split">
-
-</div>
-<img src="rdwp/4.png" /><br />
-『RDWP』Website<br />
-
-<div class="split">
-
-</div>
-<img src="rdwp/5.png" /><br />
-『RDWP』Website<br />
-
-<div class="split">
-
-</div>
-<h2 id="ヘブライ仮名-en-hebrew-gana">ヘブライ仮名 (en : Hebrew-Gana)</h2>
-<p>2017<br />
-URL: <a href="https://aidatorajiro.github.io/HeburaiGana/" class="uri">https://aidatorajiro.github.io/HeburaiGana/</a></p>
-<p>This is another work that became the prototype for “Consonant-friends”. An application that allows you to write Japanese sentences using Hebrew by “kana” system, in which you write a Japanese sentence but with Hebrew characters.</p>
-<div class="split">
-
-</div>
-<img src="scrshot.png" /><br />
-『ヘブライ仮名』Website
-<div class="split">
-
-</div>
-<h2 id="syscall-asobi">SYSCALL-ASOBI</h2>
-<p>2020<br />
-URL: <a href="https://github.com/aidatorajiro/syscall-asobi" class="uri">https://github.com/aidatorajiro/syscall-asobi</a></p>
-<p>There is a software called Wine. It allows you to run Windows applications on Mac OS and Linux, but the way to run it is a little special (comparing to so-called “Emulators”). An important function of the OS is system calls, which allow you to read and write files, communicate, and/or perform other computer operations. In general, system calls are grouped into dynamic libraries, so computer operations are executed in the following way: application-&gt;dynamic library-&gt;system call-&gt;OS. Wine “replaces” this dynamic library so that Windows applications can run on other operating systems. Then, here is a point: What would happen if an EXE file (Windows application) directly invokes system calls of MacOS without going through the dynamic library? In this experiment, I synthesized something like chimera of Windows and MacOS application. I find it aesthetically pleasing when something that was once created for one purpose is transformed into something else. This work embodies such aesthetics.</p>
-<div class="split">
-
-</div>
-<img src="scr3.png" /><br />
-SYSCALL-ASOBI screenshot<br />
-Should press top-left button, it will launch Safari (a preinstalled MacOS software) while it is intended to be a Windows application.<br />
-
-<div class="split">
-
-</div>
-<h2 id="zined3">ZineD3</h2>
-<p>2016<br />
-URL: <a href="https://aidatorajiro.github.io/ZineD3/" class="uri">https://aidatorajiro.github.io/ZineD3/</a></p>
-<p>A software that automatically generates magic circles.</p>
-<p>The rules for generating this magic circle are based on a generalization of the pentagram or hexagram, or more mathematically, an n-m-pointed star. An n-m-pointed star is a figure that is drawn by skipping m points and connecting lines based on an n-square. Personally, I like the 7-3-pointed star (<code>Z(7, 3)</code>). I feel power of sin and cos. By the way, many of the avatar images I create on the Internet are based on images generated by this service and processed in various ways.</p>
-<div class="split">
-
-</div>
-<img src="d3.png" /><br />
-『ZineD3』Screenshot<br />
-
-<div class="split">
-
-</div>
+</section>
 </body>
 </html>
