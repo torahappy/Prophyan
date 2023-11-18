@@ -194,7 +194,7 @@ Exhibited at INSTRUMENTA 2018: SANDBOX, National Gallery of Indonesia, Indonesia
 Exhibited at Media Art Festival Yambaru, Ogimi, Okinawa, 2018
 
 Source Code URL: <https://github.com/aidatorajiro/MemgameJS>  
-Media Art Festival Archive Website: <http://archive.j-mediaarts.jp/festival/2018/art/works/21a_Im_In_The_Computer_Memory/>  
+Media Art Festival Archive Website: <https://j-mediaarts.jp/en/award/single/im-in-the-computer-memory/>  
 Walkthrough: <https://youtu.be/PB19q6_8lCE> <https://youtu.be/4vvN761sYp4>
 
 It is an application and installation work. In the exhibition space, there is a large screen and a touchscreen. Small grey squares are arranged on the screen. These squares represent the data stored in the computer, most of which is invisible when you normally use computers. A small white dot is placed at the center of the screen. This represents yourself, making you feel inside the small universe within a computer.
