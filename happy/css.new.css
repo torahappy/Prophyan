@@ -456,3 +456,15 @@ code {
     width: 40vw;
   }
 }
+
+@media (max-width: 799px) {
+  html, body {
+    padding: 0;
+  }
+  img {
+    width: 100vw;
+  }
+  .caption {
+    padding: 15px;
+  }
+}
