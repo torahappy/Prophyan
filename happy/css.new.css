@@ -468,3 +468,43 @@ code {
     padding: 15px;
   }
 }
+
+@media print {
+  body, html {
+    padding: 0;
+    display: block;
+  }
+
+  section {
+    font-size: 12px;
+    width: 100%;
+    break-after: page;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+  }
+
+  .images>p {
+    width: 30vw;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 4.5vw;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+}
