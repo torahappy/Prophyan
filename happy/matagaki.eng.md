@@ -104,7 +104,8 @@ The smart contract program uploaded to the blockchain network gathers prays from
 
 <div class="caption">
 
-2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building, Tokyo, Japan
+2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building, Tokyo, Japan  
+Walkthrough Video: <https://www.youtube.com/watch?v=VRpPflo5ErQ>
 
 *Ero Law Search* is an installation artwork that consists of a vertical display, a controller mat, and a computer. On the display, Japanese Law is shown, decorated with automatically generated colorful combinations of drawings, curving shapes, emojis and mathematical symbols. You can put your feet on the mat to control the computer and view another part of the law. The mat is a consumer product that was sold 20 years ago by a game company in Japan. The title is named after "E-gov Law Search", a Japanese governmental website that publishes law, and Eros as the human desire towards goodness or beauty.
 
@@ -190,7 +191,7 @@ This work is made during NASA Space Apps Challenge Hackathon.
 
 <section>
 
-## I'm In The Computer Memory (2018)
+## I'm In The Computer Memory! (2018)
 
 <div class="caption">
 

@@ -350,7 +350,7 @@
 
 @font-face {
     font-family: 'Notosans';
-    src: url('NotoSansJP-Thin.otf');
+    src: url('NotoSansJP-Medium.otf');
 }
 
 @font-face {
@@ -359,13 +359,13 @@
 }
   
 html, body {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 100;
+    font-family: 'Notosans', sans-serif;
     font-size: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 1.05em;
 }
 
 a {
@@ -381,6 +381,7 @@ img {
 h1, h2 {
     text-align: center;
     padding-bottom: 6px;
+    padding-top: 6px;
     border-bottom: 1px #303030 solid;
     font-family: Saitamaar;
 }
@@ -452,8 +453,19 @@ code {
     font-size: 10px;
   }
 
+  .images-large {
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+  }
+
   img {
     width: 40vw;
+  }
+
+  .images-large>p>img {
+    width: 100%;
   }
 }
 
@@ -489,8 +501,19 @@ code {
     gap: 2vw;
   }
 
+  .images-large {
+    display: block;
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+  }
+
   .images>p {
     width: 30vw;
+  }
+
+  .images-large>p {
+    width: 100%;
   }
 
   img {
