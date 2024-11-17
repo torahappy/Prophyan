@@ -1,6 +1,6 @@
 <section>
 
-## Stew Unity (2023, group work)
+## 煮込みゅにてぃ (2023, group work)
 
 <div class="caption">
 
@@ -46,7 +46,7 @@ NFT生成サービスのスクリーンショット
 
 <section>
 
-## Shodo-verse (2023)
+## 書道バース (2023)
 
 <div class="caption">
 
@@ -244,7 +244,7 @@ Credit: Japan Media Arts Festival
 
 ネットアート  
 URL: <https://rdwp.netlify.app/>  
-インドネシアの展覧会「Hoppla: Simulasi #1」にてバーチャル展示 (URL: <https://simulasi.hoppla.id/artists/torajiro-aida/>)
+2022年、インドネシアの展覧会「Hoppla: Simulasi #1」にてバーチャル展示 (URL: <https://simulasi.hoppla.id/artists/torajiro-aida/>)
 
 Haskellという関数型言語を使って、「昔のインターネット上の、目的がはっきりしないウェブサイト」や「HTMLとCSSだけで作られた、リンクをクリックして世界を探索するゲーム」のようなウェブサイトを作ろうというプロジェクトである。1999年から2007年まで更新された『アドベンチャーゲームオンライン「迷宮」』（<http://hwm7.gyao.ne.jp/ex328/stage/history.html>）がその例である。
 
