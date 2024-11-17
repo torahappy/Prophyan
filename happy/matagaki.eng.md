@@ -32,6 +32,7 @@ Only a very small amount of data could be captured during the live performance p
 
 </section>
 
+<section>
 
 ## Stew Unity (2023, group work)
 
