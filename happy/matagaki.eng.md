@@ -1,5 +1,36 @@
 <section>
 
+<div class="caption">
+
+Installation
+
+2024 - the solo exhibition "yume tensei", Uenoshita Studio, Tokyo
+
+I was dreaming. I was an ant-sized creature. Walking in the darkness. I saw tatami, random rusty things, toys, glowing tree, some sort of farm, creatures chasing me. I had several sandbox-game-like experience, such as growing crops, solving puzzles to explore further. In this exhibition, sometimes recalling the dream, I explore how to simultaneously develop and play a game, by modifying a famous computer graphics software Blender. The virtual space will contain 3d-scanned rubbish, broken things, abandoned materials at ABAB. How dream, me, and these objects tensei (reincarnate)?
+
+Deeply related to my graduation research at university, I have been thinking recently about whether tools such as Photoshop, Illustrator, or programming languages themselves could provide a kind of “game” experience. Rather than tools simply providing functions for the purpose of creating 3D models or processing photos, I wonder if it would be possible to have a simulated life experience within the tool, or if improving and developing the tool itself could be like playing with clay or building blocks. Using what is already there, while remaking what is already there (“reinventing the wheel”), while creating something new. Modifying/hacking existing software Blender, with the aesthetics of Haskell and Yampa, a somewhat-minor programming language that can be transformed like clay.
+
+Only a very small amount of data could be captured during the live performance period, and the programming ended up with only a basic implementation. We would like to develop this project in the future.
+
+</div>
+
+<div class="images">
+
+![](yume/1.webp)
+
+![](yume/2.webp)
+
+![](yume/3.webp)
+
+![](yume/4.webp)
+
+![](yume/5.webp)
+
+</div>
+
+</section>
+
+
 ## Stew Unity (2023, group work)
 
 <div class="caption">
