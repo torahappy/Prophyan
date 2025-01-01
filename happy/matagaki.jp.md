@@ -44,7 +44,7 @@
 2022 - 東京 CCBTでのイベント「Future Ideations Camp Vol.2｜setup()：ブロックチェーンで新しいルールをつくる」にて展示。
 
 Github レポジトリ: <https://github.com/aidatorajiro/rakugaki>  
-OpenseaでのNFTデータ公開: <https://opensea.io/rakugaki-7>  
+OpenseaでのNFTデータ公開: <https://opensea.io/collection/rakugaki-7>  
 NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrumに接続されたMatamaskが必要): <https://rakugaki.aidatorajiro.dev/>
 
 落書きNFTの制作にあたって、柔軟で拡張性の高いスマートコントラクトプログラムを設計した。ここでは、スマートコントラクトを複数のコンポーネントに分けることで、様々な画像データやNFTの仕組み、そしてSVGのエフェクトプログラムを利用できるようにした。今後、「お札と結び付けられた落書き」や、「お札のグリッチ」がブロックチェーン文化の一つとして持続していくことを想像している。お札を「野良」化することで、お札を国家による支配から解き放たせ、さらにはお札というありふれたものに命を吹き込む実践といえよう。
