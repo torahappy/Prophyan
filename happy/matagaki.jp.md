@@ -211,7 +211,7 @@ URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>
 ネットアート  
 NASA Space Apps Challenge Hackathon (2020)　で制作・発表  
 実際に動かしている場面: <https://youtu.be/x1tEht5C5ok>  
-URL(現在修理中): <https://aidatorajiro.github.io/spec/>
+URL: <https://spec.aidatorajiro.dev/>
 
 大学に入学して間もなく、自転車による通学路を探すためにグーグルマップや国土地理院の等高線データを使った経験からヒントを得て、月面の道路や建物をイメージしたグーグルマップのようなウェブサイトを作った。
 

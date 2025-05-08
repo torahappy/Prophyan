@@ -205,7 +205,7 @@ Credit: Hiroko OKADA
 Website  
 Presented at NASA Space Apps Challenge Hackathon (2020)  
 Walkthrough: <https://youtu.be/x1tEht5C5ok>  
-URL: <https://aidatorajiro.github.io/spec/>
+URL: <https://spec.aidatorajiro.dev/>
 
 Inspired from the experience of using Google Map to find my way to school shortly after entering the university, I made a Google Map-like website that imagines roads and buildings on the moon.
 
