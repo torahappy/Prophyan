@@ -43,9 +43,9 @@
 [Ogi Kumiko](https://k-ogi1.wixsite.com/website), [sawako](https://troncolon.com/), [TAMAFREEDOM](https://twitter.com/TAMA_FREEDOM369), [teshnakamura](https://teshnakamura.com/) とのグループ制作。  
 2022 - 東京 CCBTでのイベント「Future Ideations Camp Vol.2｜setup()：ブロックチェーンで新しいルールをつくる」にて展示。
 
-Github レポジトリ: <https://github.com/aidatorajiro/rakugaki>  
+Github レポジトリ: <https://gitlab.torahappy.org/tora/rakugaki>  
 OpenseaでのNFTデータ公開: <https://opensea.io/collection/rakugaki-7>  
-NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrumに接続されたMatamaskが必要): <https://rakugaki.aidatorajiro.dev/>
+NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrumに接続されたMatamaskが必要): <https://rakugaki.torahappy.org/>
 
 落書きNFTの制作にあたって、柔軟で拡張性の高いスマートコントラクトプログラムを設計した。ここでは、スマートコントラクトを複数のコンポーネントに分けることで、様々な画像データやNFTの仕組み、そしてSVGのエフェクトプログラムを利用できるようにした。今後、「お札と結び付けられた落書き」や、「お札のグリッチ」がブロックチェーン文化の一つとして持続していくことを想像している。お札を「野良」化することで、お札を国家による支配から解き放たせ、さらにはお札というありふれたものに命を吹き込む実践といえよう。
 
@@ -181,7 +181,7 @@ Media Ambition Tokyo 2021 での展示風景
 
 東京、渋谷「Media Ambition Tokyo, Tokyo, 2020」にて展示  
 インターネットでも公開中  
-URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>  
+URL: <https://torahappy.org/sakusaku/sakusaku.html>  
 実際に遊んでいる場面: <https://www.youtube.com/watch?v=yD6CshIZKic>
 
 子音のつながりによって言葉が変化していく様子を楽しむゲーム。子音だけで単語を表記できるヘブライ語やアラビア語にヒントを得た。
@@ -211,7 +211,7 @@ URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>
 ネットアート  
 NASA Space Apps Challenge Hackathon (2020)　で制作・発表  
 実際に動かしている場面: <https://youtu.be/x1tEht5C5ok>  
-URL: <https://spec.aidatorajiro.dev/>
+URL: <https://spec.torahappy.org/>
 
 大学に入学して間もなく、自転車による通学路を探すためにグーグルマップや国土地理院の等高線データを使った経験からヒントを得て、月面の道路や建物をイメージしたグーグルマップのようなウェブサイトを作った。
 
@@ -239,7 +239,7 @@ AIを使って、月の写真から路面や建物などのデータを「強制
 2018 -- インドネシア国立ギャラリー「INSTRUMENTA 2018: SANDBOX」にて展示  
 2018 -- 沖縄「文化庁メディア芸術祭やんばる展」にて展示
 
-ソースコードURL: <https://github.com/aidatorajiro/MemgameJS>  
+ソースコードURL: <https://gitlab.torahappy.org/tora/MemgameJS>  
 メディア芸術祭アーカイブウェブサイト: <https://j-mediaarts.jp/en/award/single/im-in-the-computer-memory/>  
 実際に遊んでいる場面: <https://youtu.be/PB19q6_8lCE> <https://youtu.be/4vvN761sYp4>
 

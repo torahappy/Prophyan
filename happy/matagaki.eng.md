@@ -42,9 +42,9 @@ Group work with [Ogi Kumiko](https://k-ogi1.wixsite.com/website), [sawako](https
 
 2022 - Exhibited at "Future Ideations Camp Vol.2 | setup(): Making New Rules with Blockchains", CCBT, Tokyo, Japan.
 
-Github repo: <https://github.com/aidatorajiro/rakugaki>  
+Github repo: <https://gitlab.torahappy.org/tora/rakugaki>  
 Opensea: <https://opensea.io/collection/rakugaki-7>  
-NFT generation service (please log in as Arbitum / Linea network using Metamask): <https://rakugaki.aidatorajiro.dev/>
+NFT generation service (please log in as Arbitum / Linea network using Metamask): <https://rakugaki.torahappy.org/>
 
 We designed a flexible and extensible smart contract program to create the NFT to scribbling against bills. Here, we divided the smart contract into multiple components to allow the use of various image data, NFT mechanisms, and SVG effect programs. We imagine that "blockchained scribbling tied to physical (or digital) bills" and "bill glitches" will be a tradition of blockchain culture in the future. By making bills astray and ownerless, we aim to free bills from the control of the state and furthermore breathes life into something, or anything, as mundane as a bill.
 
@@ -175,7 +175,7 @@ Photo taken at Media Ambition Tokyo 2021
 Installation  
 Exhibited at Media Ambition Tokyo, Tokyo, 2020  
 Also published on the Internet  
-URL: <https://aidatorajiro.github.io/sakusaku/sakusaku.html>  
+URL: <https://torahappy.org/sakusaku/sakusaku.html>  
 Walkthrough: <https://www.youtube.com/watch?v=yD6CshIZKic>
 
 It is a game where you can enjoy the way words are transformed depending on the connections of consonants. The system is inspired by Hebrew and Arabic language, in which words may be written only by consonants.
@@ -205,7 +205,7 @@ Credit: Hiroko OKADA
 Website  
 Presented at NASA Space Apps Challenge Hackathon (2020)  
 Walkthrough: <https://youtu.be/x1tEht5C5ok>  
-URL: <https://spec.aidatorajiro.dev/>
+URL: <https://spec.torahappy.org/>
 
 Inspired from the experience of using Google Map to find my way to school shortly after entering the university, I made a Google Map-like website that imagines roads and buildings on the moon.
 
@@ -234,7 +234,7 @@ Exhibited at 21st Japan Media Art Festival, Japan, 2018
 Exhibited at INSTRUMENTA 2018: SANDBOX, National Gallery of Indonesia, Indonesia, 2018  
 Exhibited at Media Art Festival Yambaru, Ogimi, Okinawa, 2018
 
-Source Code URL: <https://github.com/aidatorajiro/MemgameJS>  
+Source Code URL: <https://gitlab.torahappy.org/tora/MemgameJS>  
 Media Art Festival Archive Website: <https://j-mediaarts.jp/en/award/single/im-in-the-computer-memory/>  
 Walkthrough: <https://youtu.be/PB19q6_8lCE> <https://youtu.be/4vvN761sYp4>
 
