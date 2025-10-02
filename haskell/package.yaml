@@ -2,9 +2,9 @@ name:                Prophya
 version:             0.1.0.0
 github:              "aidatorajiro/Prophya"
 license:             MIT
-author:              "Torajiro Aida"
+author:              "nanitsukurou"
 maintainer:          "kawarusosu@zoho.com"
-copyright:           "2018 Torajiro Aida"
+copyright:           "2018 nakisoudayo"
 
 extra-source-files:
 - README.md

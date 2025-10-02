@@ -3,9 +3,9 @@ version:        0.1.0.0
 description:    My Reflex Game Project Hopefully
 homepage:       https://github.com/aidatorajiro/Prophyan#readme
 bug-reports:    https://github.com/aidatorajiro/Prophyan/issues
-author:         Torajiro Aida
+author:         doushiyoukana
 maintainer:     kawarusosu@zoho.com
-copyright:      2023 Torajiro Aida
+copyright:      2023 doushiyoukana
 license:        MIT
 license-file:   LICENSE
 build-type:     Simple

@@ -1,11 +1,11 @@
 name:           MyReflexProject
 version:        0.1.0.0
 description:    My Reflex Game Project Hopefully
-homepage:       https://github.com/aidatorajiro/Prophyan#readme
-bug-reports:    https://github.com/aidatorajiro/Prophyan/issues
-author:         Torajiro Aida
+homepage:       https://github.com/torahappy/Prophyan#readme
+bug-reports:    https://github.com/torahappy/Prophyan/issues
+author:         nanimodekinakattahito
 maintainer:     kawarusosu@zoho.com
-copyright:      2023 Torajiro Aida
+copyright:      2023 nanimodekinakattahito
 license:        MIT
 license-file:   LICENSE
 build-type:     Simple
