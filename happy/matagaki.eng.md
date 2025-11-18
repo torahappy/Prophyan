@@ -44,7 +44,8 @@ Group work with [Ogi Kumiko](https://k-ogi1.wixsite.com/website), [sawako](https
 
 Github repo: <https://gitlab.torahappy.org/tora/rakugaki>  
 Opensea: <https://opensea.io/collection/rakugaki-7>  
-NFT generation service (please log in as Arbitum / Linea network using Metamask): <https://rakugaki.torahappy.org/>
+NFT generation service (please log in as Arbitum / Linea network using Metamask): <https://rakugaki.torahappy.org/>  
+Video Demo: <https://www.youtube.com/watch?v=IwYB5wqryv4>
 
 We designed a flexible and extensible smart contract program to create the NFT to scribbling against bills. Here, we divided the smart contract into multiple components to allow the use of various image data, NFT mechanisms, and SVG effect programs. We imagine that "blockchained scribbling tied to physical (or digital) bills" and "bill glitches" will be a tradition of blockchain culture in the future. By making bills astray and ownerless, we aim to free bills from the control of the state and furthermore breathes life into something, or anything, as mundane as a bill.
 
@@ -266,6 +267,8 @@ Computer graphics of the exhibition layout
 
 ![](iitcm/medigei_2.png)  
 Computer graphics of the exhibition layout
+
+</div>
 
 </section>
 

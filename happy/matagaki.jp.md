@@ -45,7 +45,8 @@
 
 Github レポジトリ: <https://gitlab.torahappy.org/tora/rakugaki>  
 OpenseaでのNFTデータ公開: <https://opensea.io/collection/rakugaki-7>  
-NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrumに接続されたMatamaskが必要): <https://rakugaki.torahappy.org/>
+NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrumに接続されたMatamaskが必要): <https://rakugaki.torahappy.org/>  
+動画: <https://www.youtube.com/watch?v=IwYB5wqryv4>
 
 落書きNFTの制作にあたって、柔軟で拡張性の高いスマートコントラクトプログラムを設計した。ここでは、スマートコントラクトを複数のコンポーネントに分けることで、様々な画像データやNFTの仕組み、そしてSVGのエフェクトプログラムを利用できるようにした。今後、「お札と結び付けられた落書き」や、「お札のグリッチ」がブロックチェーン文化の一つとして持続していくことを想像している。お札を「野良」化することで、お札を国家による支配から解き放たせ、さらにはお札というありふれたものに命を吹き込む実践といえよう。
 
@@ -267,6 +268,8 @@ Credit: Japan Media Arts Festival
 
 ![](iitcm/medigei_2.png)  
 展示レイアウトのCG画面
+
+</div>
 
 </section>
 
