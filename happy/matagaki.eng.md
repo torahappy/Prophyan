@@ -1,5 +1,93 @@
 <section>
 
+## Further Beyond the Envelopes (2025)
+
+<div class="caption">
+
+video (5 min 30 sec)
+
+OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+
+When I started making this short video work, I was thinking of a faint vision------ 
+
+> Envelopes are scattered here and there, and it looks like a narrow path in the overgrown meadow. The camera goes through, and from above, seals are mechanically stamped at various angles.
+
+Absurd bureaucratic systems, borders, control, social status, confinement, intimidation, prevention of escape, threats, conditional freedom, and the abhorrent framework of cultural exclusion and inclusion------all of them are signified by the envelope.
+
+On the other hand, the envelope also symbolizes the human right to the privacy of communication, petitions, lawsuits, mediation, arbitration, appeals, and the pretentious attitude of ‘we’ll consider your request some day.’
+
+But even when envelopes become obsolete and everything becomes digital, such systems------unjust yet maintaining a facade------won’t vanish. Instead, they’ll likely be strengthened.
+
+Paper doesn’t have to be square. It can be freely torn and bent into curves.
+
+Letters don’t have to be standardized. If written in haste, some characters might turn into hiragana instead of kanji------it’s inevitable.
+
+From the paper, from its torn edges, from the smeared ink, from the crooked handwriting, something sinister waiting to be felt------something that digitalization cannot replicate.
+
+</div>
+<div class="images">
+photo will be added soon
+</div>
+
+</section>
+
+<section>
+
+## na ga tsu ta  o ha ji ki (2025)
+
+<div class="caption">
+
+game, made with paper
+
+OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+
+Under the constraint of having to complete a work in just one or two weeks------clearly not enough time for careful deliberation------I decided to tackle a theme I would never otherwise consider. Probably, this work would never have been finished without the forced deadline. Therefore, what is depicted here is not fact. Experience, in a true sense, cannot be brought into a media form that is prepared to be heard in public. See Oka Mari’s *Memory/Narrative* for reference.
+
+Still, I followed the impulse to try to replicate the temporal and spatial sense of "that day and that night and that atmosphere" or "that one thing that happened somewhere" before forgetting it, without overly worrying about the surrounding facts, and thankfully I'm privileged enough to do that. Although, there is a more certain fact that, just before I made this work, I went back and actually walked around Nagatsuta, going back and forth, getting nervous if I was looked suspicious-----that was a recent event and thus easier to describe. I thought something meaningful could emerge, by mixing these inexpressible experiences with those still capable of expression. 
+
+At one point, I considered implementing poetic introspections like those in some gamebooks, but with the deadline approaching, and whenever I started to think about poetic words, everything became muddled. And I know that one of the most sophisticated way to write a emotional poetry is "not writing it and let the blankness tells it magically". So I stubbornly adhered to writing facts plainly, depicting only the memories I thought absolutely must be recorded. Decorations are better left to the reader’s imagination. That’s why all directives are in the format "Go to XX." The emotions should arise from the player's own mind.
+
+I consider it a miracle that this work was completed. I won’t expect more, and I couldn’t have done more. Memory is that troublesome.
+
+</div>
+<div class="images">
+photo will be added soon
+</div>
+
+</section>
+
+<section>
+
+## Kitchen, Flying Machine, Rainbow Water (2025)
+
+<div class="caption">
+
+インスタレーション、Webアプリ、ソフトウェア
+Installation, Web App, Software
+
+URL: <https://osarakamo.torahappy.org/>
+
+OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+
+This work doesn’t have a strong concept. Still, it was made while contemplating of things like the kitchen as a living space, the wars constantly happening around the world, and the fact that we’re already complicit in them just by living in a consumer society. It also considers how human waste------some part of it was once a human flesh and blood------flows through sewers into rivers into the sea.
+
+The idea of "washing" shouldn't be just about removing dirt or eliminating it, but rather about adding new information or context to the "washed thing." The shift from "the washed" to "what emerges" (In Japanese, these two words share pronunciations.) A new kind of "detergent." Even the colors of the "detergent" or "water" are diverse------there are four variations in the game. The process is "unusual", not homogeneous or commodified. However, it also feels somewhat artificial, mechanical, and if mishandled, could even be destructive.
+
+There’s no clear narrative, but as you explore how to play the game, a story-like element gradually emerges.
+
+As you play, dishes pile up. If you manage them well, they start jumping and disappear to nowhere. The ecstasy, watching the dishes move unpredictably, and fine-tuning your actions creates a feedback loop of trial and reward. But that satisfaction probably fades as you keep pulling out dishes, washing them, and sending them away.
+
+Eventually, when you stop playing and leave it idle, the cleaning process suddenly speeds up drastically. The dishes glow in vibrant gradients of color, and if it goes too far, everything turns completely white before the app restarts.
+
+</div>
+<div class="images">
+photo will be added soon
+</div>
+
+</section>
+
+<section>
+
 ## yume tensei (2024)
 
 <div class="caption">
