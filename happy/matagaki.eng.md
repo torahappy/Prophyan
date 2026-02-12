@@ -62,7 +62,6 @@ photo will be added soon
 
 <div class="caption">
 
-インスタレーション、Webアプリ、ソフトウェア
 Installation, Web App, Software
 
 URL: <https://osarakamo.torahappy.org/>
