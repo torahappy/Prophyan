@@ -93,7 +93,7 @@ photo will be added soon
 
 Installation
 
-2024 - the solo exhibition "yume tensei", Uenoshita Studio, Tokyo
+solo exhibition "yume tensei", Uenoshita Studio, Tokyo, 2024
 
 I was dreaming. I was an ant-sized creature. Walking in the darkness. I saw tatami, random rusty things, toys, glowing tree, some sort of farm, creatures chasing me. I had several sandbox-game-like experience, such as growing crops, solving puzzles to explore further. In this exhibition, sometimes recalling the dream, I explore how to simultaneously develop and play a game, by modifying a famous computer graphics software Blender. The virtual space will contain 3d-scanned rubbish, broken things, abandoned materials at ABAB. How dream, me, and these objects tensei (reincarnate)?
 
@@ -127,7 +127,7 @@ Only a very small amount of data could be captured during the live performance p
 
 Group work with [Ogi Kumiko](https://k-ogi1.wixsite.com/website), [sawako](https://troncolon.com/), [TAMAFREEDOM](https://twitter.com/TAMA_FREEDOM369), [teshnakamura](https://teshnakamura.com/)
 
-2022 - Exhibited at "Future Ideations Camp Vol.2 | setup(): Making New Rules with Blockchains", CCBT, Tokyo, Japan.
+Group Exhibition "Future Ideations Camp Vol.2 | setup(): Making New Rules with Blockchains", CCBT, Tokyo, Japan, 2023
 
 Github repo: <https://gitlab.torahappy.org/tora/rakugaki>  
 Opensea: <https://opensea.io/collection/rakugaki-7>  
@@ -171,7 +171,7 @@ Screenshot of NFT generation service Web app
 
 <div class="caption">
 
-2023 - Exhibited at "Hakkou Hajimarimashita (発酵、はじまりました)", Waseda University, Tokyo, Japan
+Group Exhibition "Hakkou Hajimarimashita (発酵、はじまりました)", Waseda University, Tokyo, Japan, 2023
 
 In collaboration with/using text generation AI, various social issues will be "compressed" into flow of kanjis, written in ink on hanshi (半紙) paper, and annotations will be added. The art of chain of impressions through kanji, is similar to that of rap. Is this the possibility of solidarity that transcends positions, or will it become a tool of Shinzo Abe or Fumio Kishida's deception for techno-feudalism? I would also like to explore ways to become a cyborg by recognizing the fundamental disconnection with machines, and delusions that are not captured in a larger story.
 
@@ -203,8 +203,8 @@ I hope this work contributes to the conversations on the relationship between ge
 
 <div class="caption">
 
-2022 - Deployed at Polygon network  
-2022 - Exhibited physically at "Meta Fair #1", Yurakucho, Tokyo, Japan.
+Deployed at Polygon network, 2022  
+Group Exhibition "Meta Fair #1", Yurakucho, Tokyo, Japan, 2022
 
 *Toward the Emancipation of All Smart Contracts, Accounts and Beyond* is an artwork consists of a smart contract code on the Polygon blockchain network and a pdf document, disguised as a "whitepaper", a tradition in the blockchain and crypto community to present an idea and gather fund. The pdf document portrays the detail of the contract system and the aspirations toward the artificial deity which is prayed via blockchain, to emancipate us.
 
@@ -226,7 +226,7 @@ The smart contract program uploaded to the blockchain network gathers prays from
 
 <div class="caption">
 
-2021 - Exhibited at "Media Ambition Tokyo" (group exhibition), Tokyo City View, Roppongi Hills Building, Tokyo, Japan  
+Group Exhibition "Media Ambition Tokyo", Tokyo City View, Roppongi Hills Building, Tokyo, Japan, 2021  
 Walkthrough Video: <https://www.youtube.com/watch?v=VRpPflo5ErQ>
 
 *Ero Law Search* is an installation artwork that consists of a vertical display, a controller mat, and a computer. On the display, Japanese Law is shown, decorated with automatically generated colorful combinations of drawings, curving shapes, emojis and mathematical symbols. You can put your feet on the mat to control the computer and view another part of the law. The mat is a consumer product that was sold 20 years ago by a game company in Japan. The title is named after "E-gov Law Search", a Japanese governmental website that publishes law, and Eros as the human desire towards goodness or beauty.
@@ -261,7 +261,7 @@ Photo taken at Media Ambition Tokyo 2021
 <div class="caption">
 
 Installation  
-Exhibited at Media Ambition Tokyo, Tokyo, 2020  
+Group Exhibition "Media Ambition Tokyo 2020", Tokyo, 2020  
 Also published on the Internet  
 URL: <https://torahappy.org/sakusaku/sakusaku.html>  
 Walkthrough: <https://www.youtube.com/watch?v=yD6CshIZKic>
@@ -291,7 +291,7 @@ Credit: Hiroko OKADA
 <div class="caption">
 
 Website  
-Presented at NASA Space Apps Challenge Hackathon (2020)  
+Presented at NASA Space Apps Challenge Hackathon, 2020  
 Walkthrough: <https://youtu.be/x1tEht5C5ok>  
 URL: <https://spec.torahappy.org/>
 
@@ -318,9 +318,9 @@ This work is made during NASA Space Apps Challenge Hackathon.
 <div class="caption">
 
 21st Japan Media Art Festival, Newbies Award, 2018  
-Exhibited at 21st Japan Media Art Festival, Japan, 2018  
-Exhibited at INSTRUMENTA 2018: SANDBOX, National Gallery of Indonesia, Indonesia, 2018  
-Exhibited at Media Art Festival Yambaru, Ogimi, Okinawa, 2018
+Group Exhibition "21st Japan Media Art Festival", Japan, 2018  
+Group Exhibition "INSTRUMENTA 2018: SANDBOX", National Gallery of Indonesia, Indonesia, 2018  
+Group Exhibition "Media Art Festival Yambaru", Ogimi, Okinawa, 2018
 
 Source Code URL: <https://gitlab.torahappy.org/tora/MemgameJS>  
 Media Art Festival Archive Website: <https://j-mediaarts.jp/en/award/single/im-in-the-computer-memory/>  
