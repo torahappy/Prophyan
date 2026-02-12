@@ -6,7 +6,7 @@
 
 video (5 min 30 sec)
 
-OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+OPEN STUDIO 2025, 元町・中華街, Yokohama, 2025
 
 When I started making this short video work, I was thinking of a faint vision------ 
 
@@ -39,7 +39,7 @@ photo will be added soon
 
 game, made with paper
 
-OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+OPEN STUDIO 2025, 元町・中華街, Yokohama, 2025
 
 Under the constraint of having to complete a work in just one or two weeks------clearly not enough time for careful deliberation------I decided to tackle a theme I would never otherwise consider. Probably, this work would never have been finished without the forced deadline. Therefore, what is depicted here is not fact. Experience, in a true sense, cannot be brought into a media form that is prepared to be heard in public. See Oka Mari’s *Memory/Narrative* for reference.
 
@@ -66,7 +66,7 @@ Installation, Web App, Software
 
 URL: <https://osarakamo.torahappy.org/>
 
-OPEN STUDIO 2025、元町・中華街、Yokohama、2025
+OPEN STUDIO 2025, 元町・中華街, Yokohama, 2025
 
 This work doesn’t have a strong concept. Still, it was made while contemplating of things like the kitchen as a living space, the wars constantly happening around the world, and the fact that we’re already complicit in them just by living in a consumer society. It also considers how human waste------some part of it was once a human flesh and blood------flows through sewers into rivers into the sea.
 
