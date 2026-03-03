@@ -24,6 +24,8 @@ Letters don’t have to be standardized. If written in haste, some characters mi
 
 From the paper, from its torn edges, from the smeared ink, from the crooked handwriting, something sinister waiting to be felt------something that digitalization cannot replicate.
 
+Within the envelopes, I wrote a letter to Diet representatives, urge them to stop being complicit in war, and to improve due process and confinement conditions.
+
 </div>
 <div class="images">
 photo will be added soon
@@ -105,13 +107,17 @@ Only a very small amount of data could be captured during the live performance p
 
 <div class="images">
 
-![](yume/1.webp)
+![](yume/h1.webp)  
+Courtesy of The Chain Museum
 
-![](yume/2.webp)
+![](yume/h2.webp)
+Courtesy of The Chain Museum
 
-![](yume/3.webp)
+![](yume/h3.webp)
+Courtesy of The Chain Museum
 
-![](yume/4.webp)
+![](yume/h4.webp)
+Courtesy of The Chain Museum
 
 ![](yume/5.webp)
 
@@ -154,11 +160,11 @@ Due to the technical limitations of full on-chain NFT, only low-resolution image
 ![](stew/4.webp)
 
 
-![](stew/5.webp)  
+![](stew/5.webp)
 Screenshot of generated NFTs  
 
 
-![](stew/6.webp)  
+![](stew/6.webp)
 Screenshot of NFT generation service Web app
 
 </div>
@@ -243,11 +249,11 @@ As such, *Ero Law Search* is not something that impose the norm of the law. Rath
 
 <div class="images">
 
-![](ero/scr1.png)  
+![](ero/scr1.png)
 Screen Capture  
 
 
-![](ero/IMG_1772.jpeg)  
+![](ero/IMG_1772.jpeg)
 Photo taken at Media Ambition Tokyo 2021  
 
 </div>
@@ -276,7 +282,7 @@ To be more specific, after the visitor types some text, the computer starts to s
 
 <div class="images">
 
-![](sin/IMG_8078.jpg)  
+![](sin/IMG_8078.jpg)
 Photo taken at Media Ambition Tokyo 2020  
 Credit: Hiroko OKADA  
 
@@ -338,21 +344,21 @@ As for the technical aspects, it was developed using three.js, a JavaScript libr
 
 <div class="images">
 
-![](iitcm/STA_0204.jpg)  
+![](iitcm/STA_0204.jpg)
 Photo taken at 21st Japan Media Art Festival  
 Credit: Japan Media Arts Festival  
   
 
-![](iitcm/STA_1633.jpg)  
+![](iitcm/STA_1633.jpg)
 Photo taken at 21st Japan Media Art Festival  
 Credit: Japan Media Arts Festival  
 
 
-![](iitcm/medigei_1.png)  
+![](iitcm/medigei_1.png)
 Computer graphics of the exhibition layout
 
 
-![](iitcm/medigei_2.png)  
+![](iitcm/medigei_2.png)
 Computer graphics of the exhibition layout
 
 </div>
@@ -379,18 +385,19 @@ Visitors use keyboard and mouse to play it. Many algorithms, shapes, pictures th
 <div class="images">
 
 ![](rdwp/1.png)  
-
+Screen Capture
 
 ![](rdwp/2.png)  
-
+Screen Capture
 
 ![](rdwp/3.png)  
-
+Screen Capture
 
 ![](rdwp/4.png)  
-
+Screen Capture
 
 ![](rdwp/5.png)  
+Screen Capture
 
 </div>
 

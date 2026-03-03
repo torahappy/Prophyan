@@ -24,6 +24,8 @@ OPEN STUDIO 2025、元町・中華街、横浜、2025
 
 それはデジタルにはないものだ。
 
+その手紙の内容はというと、戦争反対や残酷な司法制度の改善といった陳情書を国会議員に宛てて書いている。
+
 </div>
 
 </section>
@@ -60,7 +62,8 @@ OPEN STUDIO 2025、元町・中華街、横浜、2025
 
 インスタレーション、Webアプリ、ソフトウェア
 
-URL: <https://osarakamo.torahappy.org/>
+URL: <https://osarakamo.torahappy.org/>  
+操作方法：キーボードのWASDキーと矢印キー、またはスマートフォン上に表示されるタッチボタン
 
 OPEN STUDIO 2025、元町・中華街、横浜、2025
 
@@ -100,15 +103,20 @@ OPEN STUDIO 2025、元町・中華街、横浜、2025
 
 <div class="images">
 
-![](yume/1.webp)
+![](yume/h1.webp)
+会場風景 The Chain Museum提供
 
-![](yume/2.webp)
+![](yume/h2.webp)
+会場風景 The Chain Museum提供
 
-![](yume/3.webp)
+![](yume/h3.webp)
+会場風景 The Chain Museum提供
 
-![](yume/4.webp)
+![](yume/h4.webp)
+会場風景 The Chain Museum提供
 
 ![](yume/5.webp)
+会場風景
 
 </div>
 
@@ -139,22 +147,22 @@ NFT 生成用のWebサイト(なお、アクセスにはLineaまたはArbitrum�
 <div class="images">
 
 ![](stew/1.webp)
-
+会場風景 
 
 ![](stew/2.webp)
-
+会場風景 
 
 ![](stew/3.webp)
-
+会場風景 
 
 ![](stew/4.webp)
+会場風景 
 
-
-![](stew/5.webp)  
+![](stew/5.webp)
 生成されたNFTのスクリーンショット
 
 
-![](stew/6.webp)  
+![](stew/6.webp)
 NFT生成サービスのスクリーンショット
 
 </div>
@@ -184,12 +192,13 @@ ChatGPTとLLaMAベースのStable Vicuna言語モデルを使い、プロンプ�
 <div class="images">
 
 ![](shodo/1.webp)
-
+会場風景 
 
 ![](shodo/2.webp)
-
+会場風景 
 
 ![](shodo/3.webp)
+会場風景 
 
 </div>
 
@@ -215,6 +224,7 @@ ChatGPTとLLaMAベースのStable Vicuna言語モデルを使い、プロンプ�
 <div class="images-large">
 
 ![](nft2022-1/p-concat.png)
+展示された論文作品
 
 </div>
 
@@ -244,10 +254,10 @@ ChatGPTとLLaMAベースのStable Vicuna言語モデルを使い、プロンプ�
 
 <div class="images">
 
-![](ero/scr1.png)  
+![](ero/scr1.png)
 スクリーンキャプチャー  
 
-![](ero/IMG_1772.jpeg)  
+![](ero/IMG_1772.jpeg)
 Media Ambition Tokyo 2021 での展示風景 
 
 </div>
@@ -277,7 +287,7 @@ URL: <https://torahappy.org/sakusaku/sakusaku.html>
 
 <div class="images-large">
 
-![](sin/IMG_8078.jpg)  
+![](sin/IMG_8078.jpg)
 「Media Ambition Tokyo 2020」での展示風景  
 フォトクレジット: Hiroko OKADA
 
@@ -304,7 +314,7 @@ AIを使って、月の写真から路面や建物などのデータを「強制
 
 <div class="images-large">
 
-![](moon.png)  
+![](moon.png)
 ウェブサイトのスクリーンショット
 
 </div>
@@ -340,15 +350,15 @@ AIを使って、月の写真から路面や建物などのデータを「強制
 
 <div class="images">
 
-![](iitcm/STA_0204.jpg)  
+![](iitcm/STA_0204.jpg)
 第21回 文化庁メディア芸術祭での展示風景  
 Credit: Japan Media Arts Festival  
 
-![](iitcm/STA_1633.jpg)  
+![](iitcm/STA_1633.jpg)
 第21回 文化庁メディア芸術祭での展示風景  
 Credit: Japan Media Arts Festival
 
-![](iitcm/medigei_2.png)  
+![](iitcm/medigei_2.png)
 展示レイアウトのCG画面
 
 </div>
@@ -375,19 +385,20 @@ JavaScriptやC言語、Pythonなどのプログラミング言語と比べ、関
 
 <div class="images">
 
-![](rdwp/1.png)  
+![](rdwp/1.png)
+ウェブサイトのスクリーンショット
 
+![](rdwp/2.png)
+ウェブサイトのスクリーンショット
 
-![](rdwp/2.png)  
+![](rdwp/3.png)
+ウェブサイトのスクリーンショット
 
+![](rdwp/4.png)
+ウェブサイトのスクリーンショット
 
-![](rdwp/3.png)  
-
-
-![](rdwp/4.png)  
-
-
-![](rdwp/5.png)  
+![](rdwp/5.png)
+ウェブサイトのスクリーンショット
 
 </div>
 
