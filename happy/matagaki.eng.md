@@ -151,16 +151,12 @@ Only a very small amount of data could be captured during the live performance p
 <div class="images">
 
 ![](yume/h1.webp)  
-Courtesy of The Chain Museum
 
 ![](yume/h2.webp)
-Courtesy of The Chain Museum
 
 ![](yume/h3.webp)
-Courtesy of The Chain Museum
 
 ![](yume/h4.webp)
-Courtesy of The Chain Museum
 
 ![](yume/5.webp)
 

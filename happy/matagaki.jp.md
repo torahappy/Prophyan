@@ -212,16 +212,16 @@ OPEN STUDIO 2025での展示
 <div class="images">
 
 ![](yume/h1.webp)
-会場風景 The Chain Museum提供
+会場風景
 
 ![](yume/h2.webp)
-会場風景 The Chain Museum提供
+会場風景
 
 ![](yume/h3.webp)
-会場風景 The Chain Museum提供
+会場風景
 
 ![](yume/h4.webp)
-会場風景 The Chain Museum提供
+会場風景
 
 ![](yume/5.webp)
 会場風景
