@@ -27,8 +27,18 @@ From the paper, from its torn edges, from the smeared ink, from the crooked hand
 Within the envelopes, I wrote a letter to Diet representatives, urge them to stop being complicit in war, and to improve due process and confinement conditions.
 
 </div>
+
+
 <div class="images">
-photo will be added soon
+
+![](fuutou/1.webp)
+
+![](fuutou/2.webp)
+
+![](fuutou/3.webp)
+
+![](fuutou/4.webp)
+
 </div>
 
 </section>
@@ -52,8 +62,19 @@ At one point, I considered implementing poetic introspections like those in some
 I consider it a miracle that this work was completed. I won’t expect more, and I couldn’t have done more. Memory is that troublesome.
 
 </div>
+
+
 <div class="images">
-photo will be added soon
+
+![](nagatsuta/1.webp)
+Overview of the game board
+
+![](nagatsuta/2.webp)
+At OPEN STUDIO 2025
+
+![](nagatsuta/3.webp)
+At OPEN STUDIO 2025
+
 </div>
 
 </section>
@@ -81,8 +102,30 @@ As you play, dishes pile up. If you manage them well, they start jumping and dis
 Eventually, when you stop playing and leave it idle, the cleaning process suddenly speeds up drastically. The dishes glow in vibrant gradients of color, and if it goes too far, everything turns completely white before the app restarts.
 
 </div>
+
+
 <div class="images">
-photo will be added soon
+
+![](osarakamo/1.webp)
+At OPEN STUDIO 2025  
+The players interact with the game with chopsticks coated by coppar foil.
+
+![](osarakamo/2.webp)
+At OPEN STUDIO 2025
+
+![](osarakamo/3.webp)
+At OPEN STUDIO 2025
+
+![](osarakamo/4.webp)
+The prototype version.  
+I didn't use copper foil, instead I used chopsticks dipped into salty water.
+
+![](osarakamo/5.webp)
+The prototype version.  
+
+![](osarakamo/6.webp)
+The prototype version.  
+
 </div>
 
 </section>
