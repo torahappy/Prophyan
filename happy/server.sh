@@ -1,1 +1,1 @@
-npx browser-sync start -s ./ -f ./
+npx browser-sync start --directory -s ./ -f ./
