@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "browser-sync": "^3.0.3",
+    "chokidar": "^4.0.1",
+    "chokidar-cli": "^3.0.0"
+  }
+}

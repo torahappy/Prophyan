@@ -1,0 +1,7 @@
+# how to build
+
+1. run `nix-build`
+2. run `env-dump.sh`
+3. reboot WSL or docker or computer
+4. install VSCode haskell language server plugin
+5. open `yumeserver` folder

@@ -1,0 +1,1 @@
+npx chokidar "*.md" -c "sh build.sh"
